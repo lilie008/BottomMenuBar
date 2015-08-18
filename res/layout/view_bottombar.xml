@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/bottom_bar_linear">
+
+    <LinearLayout
+        android:id="@id/market_layout"
+        style="@style/main_bottom_bar_linear" >
+
+        <ImageView
+            android:id="@id/market_image"
+            style="@style/main_bottom_bar_image" />
+
+        <TextView
+            android:id="@id/market_text"
+            style="@style/main_bottom_bar_text"
+            android:text="@string/market" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/trading_layout"
+        style="@style/main_bottom_bar_linear" >
+
+        <ImageView
+            android:id="@id/trading_image"
+            style="@style/main_bottom_bar_image" />
+
+        <TextView
+            android:id="@id/trading_text"
+            style="@style/main_bottom_bar_text"
+            android:text="@string/spot_trading" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/future_layout"
+        style="@style/main_bottom_bar_linear" >
+
+        <ImageView
+            android:id="@id/future_image"
+            style="@style/main_bottom_bar_image" />
+
+        <TextView
+            android:id="@id/future_text"
+            style="@style/main_bottom_bar_text"
+            android:text="@string/agreements_trading" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/setting_layout"
+        style="@style/main_bottom_bar_linear" >
+
+        <ImageView
+            android:id="@id/setting_image"
+            style="@style/main_bottom_bar_image" />
+
+        <TextView
+            android:id="@id/setting_text"
+            style="@style/main_bottom_bar_text"
+            android:text="@string/personal_center" />
+    </LinearLayout>
+
+</LinearLayout>

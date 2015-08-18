@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">ButtonMenu</string>
+    <string name="account_center">个人中心</string>
+
+    <string name="market">行情</string>
+    <string name="spot_trading">现货交易</string>
+    <string name="agreements_trading">合约交易</string>
+    <string name="personal_center">个人中心</string>
+    
+    <string name="hello">您好</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="total_assets">总资产</string>
+    <string name="net_assets">净资产</string>
+    <string name="trading_transactions">现货账单</string>
+    <string name="coin_recharge">充值</string>
+    <string name="account_center_trading_account">现货账户</string>
+    <string name="account_center_futures_account">期货账户</string>
+    <string name="futures_transactions">期货账单</string>
+    <string name="delivery_history">交割记录</string>
+    <string name="security_center">安全中心</string>
+    <string name="secondary_confirm">下单二次确认</string>
+    <string name="secondary_confirm_tips">开启后，每次下单需要二次确认</string>
+    <string name="check_for_updates">版本更新</string>
+    <string name="feedback_online">意见反馈</string>
+    <string name="about_us">关于</string>
+
+    <string name="logout">退出或切换至其他账号登陆</string>
+
+    <string name="chart_detail">****详情</string>
+    <string name="chart_macd">MACD</string>
+    <string name="chart_kdj">KDJ</string>
+    <string name="chart_ma">MA</string>
+    <string name="chart_ema">EMA</string>
+    <string name="chart_close">关闭</string>
+    <string name="chart_close_title">收</string>
+    <string name="chart_day_1">1天</string>
+    <string name="chart_day_3">3天</string>
+    <string name="chart_day_7">1周</string>
+    <string name="chart_em_line">分时</string>
+    <string name="chart_high_title">高</string>
+    <string name="chart_hour_1">1小时</string>
+    <string name="chart_hour_12">12小时</string>
+    <string name="chart_hour_2">2小时</string>
+    <string name="chart_hour_4">4小时</string>
+    <string name="chart_hour_6">6小时</string>
+    <string name="chart_low_title">低</string>
+    <string name="chart_ma_ema">EMA/MA</string>
+    <string name="chart_minute_1">1分</string>
+    <string name="chart_minute_15">15分</string>
+    <string name="chart_minute_3">3分</string>
+    <string name="chart_minute_30">30分</string>
+    <string name="chart_minute_5">5分</string>
+    <string name="chart_minute_60">60分</string>
+    <string name="chart_open_title">开</string>
+
+    <string name="depth_view_in_kline_buy_amount">买入量</string>
+    <string name="depth_view_in_kline_buy_price">买入价</string>
+    <string name="depth_view_in_kline_sell_amount">卖出量</string>
+    <string name="depth_view_in_kline_sell_price">卖出价</string>
+    
+     <string name="btc">BTC</string>
+     <string name="ltc">LTC</string>
+     <string name="spot">现货</string>
+     <string name="agreements">合约</string>
+     <string name="buy_in">买入</string>
+     <string name="sell_out">卖出</string>
+     <string name="not_deal">未成交</string>
+     <string name="proxy_histrory">历史委托</string>
+     
+     <string name="usd">USD</string>
+	 <string name="volumn">成交量</string>
+	 <string name="bid">买一</string>
+	 <string name="ask">卖一</string>
+	 <string name="low">最低</string>
+	 <string name="high">最高</string>
+	 
+	 <string name="up_arrow">&#8593;123,456</string>
+	 <string name="down_arrow">&#8595;123,456</string>
+	 
+	 <string name="volume">成交量</string>
+</resources>

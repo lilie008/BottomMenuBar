@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Fill" >
+    <TextView android:text="@string/chart_detail" style="@style/NavigationTitleBar" />
+    <ImageView android:id="@id/back" style="@style/NavigationBackButton" />
+	<widget.charttopsetting.TopTabBar android:id="@id/TopTabBar" android:layout_below="@id/back" style="@style/ChartSettingsHead"/>
+	
+</RelativeLayout>

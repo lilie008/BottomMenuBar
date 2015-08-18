@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="buttombar">false</item>
+    <item type="id" name="main_view_container">false</item>
+    <item type="id" name="market_tab_tool">false</item>
+    <item type="id" name="trading_tab_tool">false</item>
+    <item type="id" name="chart_tool_bar">false</item>
+    <item type="id" name="back">false</item>
+    <item type="id" name="TopTabBar">false</item>
+    
+    <item type="id" name="market_layout">false</item>
+    <item type="id" name="market_image">false</item>
+    <item type="id" name="market_text">false</item>
+    <item type="id" name="trading_layout">false</item>
+    <item type="id" name="trading_image">false</item>
+    <item type="id" name="trading_text">false</item>
+    <item type="id" name="future_layout">false</item>
+    <item type="id" name="future_image">false</item>
+    <item type="id" name="future_text">false</item>
+    <item type="id" name="setting_layout">false</item>
+    <item type="id" name="setting_image">false</item>
+    <item type="id" name="setting_text">false</item>
+    
+    <item type="id" name="MaSetting">false</item>
+    <item type="id" name="chart_ma">false</item>
+    <item type="id" name="chart_ema">false</item>
+    <item type="id" name="chart_close">false</item>
+    
+    <item type="id" name="MacdSetting">false</item>
+    <item type="id" name="chart_macd">false</item>
+    <item type="id" name="chart_kdj">false</item>
+    
+    <item type="id" name="TimeIntervalSetting">false</item>
+    <item type="id" name="chart_em_line">false</item>
+    <item type="id" name="chart_minute_1">false</item>
+    <item type="id" name="chart_minute_3">false</item>
+    <item type="id" name="chart_minute_5">false</item>
+    <item type="id" name="chart_minute_15">false</item>
+    <item type="id" name="chart_minute_30">false</item>
+    <item type="id" name="chart_hour_1">false</item>
+    <item type="id" name="chart_hour_2">false</item>
+    <item type="id" name="chart_hour_4">false</item>
+    <item type="id" name="chart_hour_6">false</item>
+    <item type="id" name="chart_hour_12">false</item>
+    <item type="id" name="chart_day_1">false</item>
+    <item type="id" name="chart_day_7">false</item>
+    
+    <item type="id" name="settings_head_time_interval">false</item>
+    <item type="id" name="settings_head_ma">false</item>
+    <item type="id" name="settings_head_macd">false</item>
+    
+    <item type="id" name="navigation_title_bar">false</item>
+    <item type="id" name="layout_nickname">false</item>
+    <item type="id" name="layout_trading_account">false</item>
+    <item type="id" name="trading_account">false</item>
+    <item type="id" name="brief_assets">false</item>
+    <item type="id" name="total_assets_label">false</item>
+    <item type="id" name="total_assets_cny_label">false</item>
+    <item type="id" name="total_assets_cny">false</item>
+    <item type="id" name="net_assets_label">false</item>
+    <item type="id" name="net_assets_cny_label">false</item>
+    <item type="id" name="net_assets_cny">false</item>
+    <item type="id" name="recharge_line">false</item>
+    <item type="id" name="recharge">false</item>
+    <item type="id" name="layout_futures_account">false</item>
+    <item type="id" name="futures_account">false</item>
+    <item type="id" name="futures_transactions">false</item>
+    <item type="id" name="delivery_history">false</item>
+    <item type="id" name="security_center">false</item>
+    <item type="id" name="secondary_confirm_line">false</item>
+    <item type="id" name="secondary_confirm_layout">false</item>
+    <item type="id" name="secondary_confirm">false</item>
+    <item type="id" name="secondary_confirm_tips">false</item>
+    <item type="id" name="check_for_updates">false</item>
+    <item type="id" name="feedback_online">false</item>
+    <item type="id" name="about_us">false</item>
+    <item type="id" name="logout_button">false</item>
+    
+    <item type="id" name="market_tab">false</item>
+    <item type="id" name="market_tab_tool_layout">false</item>
+    <item type="id" name="trading_tab">false</item>
+    <item type="id" name="trading_tab_tool_layout">false</item>
+
+    <item type="id" name="spot">false</item>
+    <item type="id" name="agreements">false</item>
+    <item type="id" name="buy_in">false</item>
+    <item type="id" name="sell_out">false</item>
+    <item type="id" name="not_deal">false</item>
+    <item type="id" name="proxy_histrory">false</item>
+    
+    <item type="id" name="tablayoutitem_text">false</item>
+    
+    <item type="id" name="big_mark">false</item>
+    <item type="id" name="big_unit">false</item>
+    <item type="id" name="big_last">false</item>
+    <item type="id" name="bid_label">false</item>
+    <item type="id" name="small_mark">false</item>
+    <item type="id" name="small_unit">false</item>
+    <item type="id" name="small_last">false</item>
+    <item type="id" name="market_name">false</item>
+    <item type="id" name="site">false</item>
+    <item type="id" name="volume_label">false</item>
+    <item type="id" name="volume">false</item>    
+
+    <item type="id" name="list">false</item>   
+    
+</resources>

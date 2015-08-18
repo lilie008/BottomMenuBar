@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/ChartSettingsHead">
+        <TextView android:id="@id/settings_head_time_interval" style="@style/ChartSettingsHeadItem" android:text="@string/chart_minute_15"/>
+        <View style="@style/ChartSettingsHeadLine" />
+        <TextView android:id="@id/settings_head_ma" style="@style/ChartSettingsHeadItem" android:text="@string/chart_close"/>
+        <View style="@style/ChartSettingsHeadLine" />
+        <TextView android:id="@id/settings_head_macd" style="@style/ChartSettingsHeadItem" android:text="@string/chart_close"/>
+        <View style="@style/ChartSettingsHeadLine" />
+        <View style="@style/HItemFill" />
+</LinearLayout>

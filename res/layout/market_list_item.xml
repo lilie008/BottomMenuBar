@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/QuotesListItemNew">
+
+    <TextView android:id="@id/big_mark" style="@style/QuotesListItemBigLast"/>
+    <TextView android:id="@id/market_name" android:layout_alignBaseline="@id/big_mark" style="@style/QuotesListItemMarketName" android:text="OKCoin"/>
+    <TextView android:id="@id/site" android:layout_marginLeft="4.0dip" android:layout_toRightOf="@id/market_name" android:layout_alignBaseline="@id/market_name" style="@style/QuotesListItemSite" android:text="中国站"/>
+    <TextView android:textSize="12.0sp" android:id="@id/big_unit" android:layout_alignBaseline="@id/big_mark" android:layout_alignParentRight="true" style="@style/QuotesListItemUnit" android:text="CNY"/>
+    <TextView android:textSize="21.0sp" android:id="@id/big_last" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/big_unit" android:layout_alignBaseline="@id/big_mark" style="@style/QuotesListItemBigLast" android:text="@string/up_arrow"/>
+    <TextView android:id="@id/small_mark" android:layout_below="@id/big_mark" style="@style/QuotesListItemSmallLast" />
+    <TextView android:textSize="14.0sp" android:id="@id/volume_label" android:text="@string/volumn" android:layout_alignBaseline="@id/small_mark" style="@style/QuotesListItemLabel" />
+    <TextView android:textSize="14.0sp" android:id="@id/volume" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/volume_label" android:layout_alignBaseline="@id/small_mark" style="@style/QuotesListItemNumber" android:text="฿10,641,173.79"/>
+    <TextView android:textSize="12.0sp" android:id="@id/small_unit" android:layout_alignBaseline="@id/small_mark" android:layout_alignParentRight="true" style="@style/QuotesListItemUnit" android:text="USD"/>
+    <TextView android:textSize="14.0sp" android:id="@id/small_last" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/small_unit" android:layout_alignBaseline="@id/small_mark" style="@style/QuotesListItemSmallLast" android:text="1.23"/>
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView android:id="@+id/navigation_title_bar" android:text="@string/account_center" style="@style/NavigationTitleBar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@+id/navigation_title_bar">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_nickname" android:visibility="visible" style="@style/NavigationOptionContainer">
+                <TextView android:text="@string/hello" android:drawableLeft="@drawable/account_center_user" style="@style/AssetsHelloLabel" />
+                <TextView android:id="@+id/nickname" style="@style/AssetsNickNameLabel" />
+            </LinearLayout>
+            <LinearLayout style="@style/NavigationOptionContainer">
+                <LinearLayout android:id="@id/layout_trading_account" style="@style/VLinearHFill">
+                    <TextView android:id="@id/trading_account" android:text="@string/account_center_trading_account" android:drawableLeft="@drawable/account_center_trading" style="@style/NavigationOption" />
+                    <RelativeLayout android:id="@id/brief_assets" android:visibility="visible" android:layout_marginRight="16.0dip" style="@style/AssetsBriefArea">
+                        <TextView android:id="@id/total_assets_label" android:text="@string/total_assets" style="@style/AssetsBriefTitleLabel" />
+                        <TextView android:id="@id/total_assets_cny_label" android:text="CNY" android:layout_alignBaseline="@+id/total_assets_label" style="@style/AssetsBriefUnitLabel" />
+                        <TextView android:id="@id/total_assets_cny" android:layout_toLeftOf="@+id/total_assets_cny_label" android:layout_alignBaseline="@+id/total_assets_label" style="@style/AssetsBriefLabel" />
+                        <TextView android:id="@id/net_assets_label" android:layout_marginTop="4.0dip" android:text="@string/net_assets" android:layout_below="@+id/total_assets_label" style="@style/AssetsBriefTitleLabel" />
+                        <TextView android:id="@id/net_assets_cny_label" android:text="CNY" android:layout_alignBaseline="@+id/net_assets_label" style="@style/AssetsBriefUnitLabel" />
+                        <TextView android:id="@id/net_assets_cny" android:layout_toLeftOf="@+id/net_assets_cny_label" android:layout_alignBaseline="@+id/net_assets_label" style="@style/AssetsBriefLabel" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <View style="@style/FuturesLineGreyLight" />
+                <TextView android:id="@+id/account_statement" android:text="@string/trading_transactions" android:drawableLeft="@drawable/account_center_trading_bill" style="@style/NavigationOption" />
+                <View android:id="@id/recharge_line" style="@style/FuturesLineGreyLight" />
+                <TextView android:id="@id/recharge" android:visibility="visible" android:text="@string/coin_recharge" android:drawableLeft="@drawable/account_center_recharge" style="@style/NavigationOption" />
+            </LinearLayout>
+            <LinearLayout style="@style/NavigationOptionContainer">
+                <LinearLayout android:id="@id/layout_futures_account" style="@style/VLinearHFill">
+                    <TextView android:id="@id/futures_account" android:text="@string/account_center_futures_account" android:drawableLeft="@drawable/account_center_futures" style="@style/NavigationOption" />
+                    <!--<RelativeLayout android:id="@+id/futures_assets" android:visibility="gone" android:layout_marginRight="16.0dip" style="@style/AssetsBriefArea">-->
+                        <!--<TextView android:id="@+id/btc_equity_label" android:text="@string/btc_account_equity" style="@style/AssetsBriefTitleLabel" />-->
+                        <!--<TextView android:id="@+id/btc_equity_unit_label" android:text="@string/btc" android:layout_alignBaseline="@+id/btc_equity_label" style="@style/AssetsBriefUnitLabel" />-->
+                        <!--<TextView android:id="@+id/btc_equity" android:layout_toLeftOf="@+id/btc_equity_unit_label" android:layout_alignBaseline="@+id/btc_equity_label" style="@style/AssetsBriefLabel" />-->
+                        <!--<TextView android:id="@+id/ltc_equity_label" android:layout_marginTop="4.0dip" android:text="@string/ltc_account_equity" android:layout_below="@+id/btc_equity_label" style="@style/AssetsBriefTitleLabel" />-->
+                        <!--<TextView android:id="@+id/ltc_equity_unit_label" android:text="@string/ltc" android:layout_alignBaseline="@+id/ltc_equity_label" style="@style/AssetsBriefUnitLabel" />-->
+                        <!--<TextView android:id="@+id/ltc_equity" android:layout_toLeftOf="@+id/ltc_equity_unit_label" android:layout_alignBaseline="@+id/ltc_equity_label" style="@style/AssetsBriefLabel" />-->
+                    <!--</RelativeLayout>-->
+                </LinearLayout>
+                <View style="@style/FuturesLineGreyLight" />
+                <TextView android:id="@id/futures_transactions" android:text="@string/futures_transactions" android:drawableLeft="@drawable/account_center_futures_bill" style="@style/NavigationOption" />
+                <View style="@style/FuturesLineGreyLight" />
+                <TextView android:id="@id/delivery_history" android:text="@string/delivery_history" android:drawableLeft="@drawable/account_center_delivery_record" style="@style/NavigationOption" />
+            </LinearLayout>
+            <LinearLayout android:layout_marginBottom="0.0dip" style="@style/NavigationOptionContainer">
+                <TextView android:id="@id/security_center" android:text="@string/security_center" android:drawableLeft="@drawable/account_center_security" style="@style/NavigationOption" />
+                <View android:id="@id/secondary_confirm_line" android:visibility="visible" style="@style/FuturesLineGreyLight" />
+                <RelativeLayout android:id="@id/secondary_confirm_layout" android:visibility="visible" style="@style/Setting">
+                    <TextView android:text="@string/secondary_confirm" android:drawableLeft="@drawable/account_center_secondary_confirm" android:drawablePadding="8.0dip" style="@style/SettingText" />
+                    <Button android:id="@id/secondary_confirm" style="@style/SettingSwitch" />
+                </RelativeLayout>
+            </LinearLayout>
+            <TextView android:textColor="@color/futures_grey" android:id="@id/secondary_confirm_tips" android:visibility="visible" android:layout_marginLeft="12.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="12.0dip" android:text="@string/secondary_confirm_tips" style="@style/HFill" />
+            <LinearLayout android:layout_marginTop="16.0dip" style="@style/NavigationOptionContainer">
+                <TextView android:id="@id/check_for_updates" android:text="@string/check_for_updates" android:drawableLeft="@drawable/account_center_update" style="@style/NavigationOption" />
+                <View style="@style/FuturesLineGreyLight" />
+                <TextView android:id="@id/feedback_online" android:text="@string/feedback_online" android:drawableLeft="@drawable/advice_fb" style="@style/NavigationOption" />
+                <View style="@style/FuturesLineGreyLight" />
+                <TextView android:id="@id/about_us" android:text="@string/about_us" android:drawableLeft="@drawable/account_center_about" style="@style/NavigationOption" />
+            </LinearLayout>
+            <Button android:id="@id/logout_button" android:visibility="visible" android:text="@string/logout" style="@style/LogoutButton" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Wrap">
+	<LinearLayout android:id="@id/TimeIntervalSetting" style="@style/VLinearHFill">
+	    <View style="@style/ChartSettingsHLine" />
+	    <LinearLayout style="@style/ChartSettingsRow">
+	        <TextView android:id="@id/chart_em_line" android:text="@string/chart_em_line" style="@style/ChartSettingsRowItem" />
+	        <TextView android:id="@id/chart_minute_1" android:text="@string/chart_minute_1" style="@style/ChartSettingsRowItem" />
+	        <TextView android:id="@id/chart_minute_3" android:text="@string/chart_minute_3" style="@style/ChartSettingsRowItem" />
+	        <TextView android:id="@id/chart_minute_5" android:text="@string/chart_minute_5" style="@style/ChartSettingsRowItem" />
+	        <TextView android:id="@id/chart_minute_15" android:text="@string/chart_minute_15" style="@style/ChartSettingsRowItem" />
+	    </LinearLayout>
+	    <View style="@style/ChartSettingsHLine" />
+	    <LinearLayout style="@style/ChartSettingsRow">
+	        <TextView android:id="@id/chart_minute_30" android:text="@string/chart_minute_30" style="@style/ChartSettingsRowItem" />
+	        <TextView android:id="@id/chart_hour_1" android:text="@string/chart_hour_1" style="@style/ChartSettingsRowItem" />
+	        <TextView android:id="@id/chart_hour_2" android:text="@string/chart_hour_2" style="@style/ChartSettingsRowItem" />
+	        <TextView android:id="@id/chart_hour_4" android:text="@string/chart_hour_4" style="@style/ChartSettingsRowItem" />
+	        <TextView android:id="@id/chart_hour_6" android:text="@string/chart_hour_6" style="@style/ChartSettingsRowItem" />
+	    </LinearLayout>
+	    <View style="@style/ChartSettingsHLine" />
+	    <LinearLayout style="@style/ChartSettingsRow">
+	        <TextView android:id="@id/chart_hour_12" android:text="@string/chart_hour_12" style="@style/ChartSettingsRowItem" />
+	        <TextView android:id="@id/chart_day_1" android:text="@string/chart_day_1" style="@style/ChartSettingsRowItem" />
+	        <TextView android:id="@id/chart_day_7" android:text="@string/chart_day_7" style="@style/ChartSettingsRowItem" />
+	        <View style="@style/ChartSettingsRowItem" />
+	        <View style="@style/ChartSettingsRowItem" />
+	    </LinearLayout>
+	</LinearLayout>
+</FrameLayout>

@@ -1,0 +1,19 @@
+com.example.bottommenubar.BaseActivity:
+    52:54:public static android.app.Activity GetTopActivity()
+    70:71:protected void showLongToast(java.lang.String)
+com.example.bottommenubar.BottomTabLayoutItem:
+    43:43:public com.example.bottommenubar.BottomTabBar getTab()
+com.example.bottommenubar.BuildConfig
+com.example.bottommenubar.Finals
+com.example.bottommenubar.R
+com.example.bottommenubar.R$attr
+com.example.bottommenubar.R$color
+com.example.bottommenubar.R$dimen
+com.example.bottommenubar.R$drawable
+com.example.bottommenubar.R$id
+com.example.bottommenubar.R$layout
+com.example.bottommenubar.R$string
+com.example.bottommenubar.R$style
+com.example.charttopsetting.ITobTabFactory
+com.example.charttopsetting.TopTabBar:
+    android.view.View newView

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Wrap">
+	<LinearLayout android:id="@id/MacdSetting" android:layout_width="72.0dip" style="@style/VLinearHFill">
+	    <View style="@style/ChartSettingsHLine" />
+	    <LinearLayout style="@style/ChartSettingsRow">
+	        <TextView android:id="@id/chart_macd" android:text="@string/chart_macd" style="@style/ChartSettingsRowItem" />
+	    </LinearLayout>
+	    <View style="@style/ChartSettingsHLine" />
+	    <LinearLayout style="@style/ChartSettingsRow">
+	        <TextView android:id="@id/chart_kdj" android:text="@string/chart_kdj" style="@style/ChartSettingsRowItem" />
+	    </LinearLayout>
+	    <View style="@style/ChartSettingsHLine" />
+	    <LinearLayout style="@style/ChartSettingsRow">
+	        <TextView android:id="@id/chart_close" android:text="@string/chart_close" style="@style/ChartSettingsRowItem" />
+	    </LinearLayout>
+	</LinearLayout>
+</FrameLayout>

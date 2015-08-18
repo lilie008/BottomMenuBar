@@ -1,0 +1,4067 @@
+_____________________________________________________________________
++ Program class: com/example/bottommenubar/a
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.bottommenubar.a extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 72):
+  + String [自定义跳转页面]
+  + Class [android/app/Activity]
+  + Class [android/widget/Toast]
+  + Class [com/example/bottommenubar/a]
+  + Class [java/lang/Class]
+  + Class [java/lang/Object]
+  + Class [java/util/ArrayList]
+  + Fieldref [com/example/bottommenubar/a.a Ljava/lang/String;]
+  + Fieldref [com/example/bottommenubar/a.b Ljava/util/ArrayList;]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/Activity.onDestroy ()V]
+  + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + Methodref [android/widget/Toast.show ()V]
+  + Methodref [com/example/bottommenubar/a.a (Ljava/lang/String;)V]
+  + Methodref [com/example/bottommenubar/a.onBackPressed ()V]
+  + Methodref [com/example/bottommenubar/a.requestWindowFeature (I)Z]
+  + Methodref [java/lang/Class.getSimpleName ()Ljava/lang/String;]
+  + Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+  + Methodref [java/util/ArrayList.<init> ()V]
+  + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+  + Methodref [java/util/ArrayList.remove (Ljava/lang/Object;)Z]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Ljava/lang/String;)V]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [add (Ljava/lang/Object;)Z]
+  + NameAndType [b Ljava/util/ArrayList;]
+  + NameAndType [getClass ()Ljava/lang/Class;]
+  + NameAndType [getSimpleName ()Ljava/lang/String;]
+  + NameAndType [makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + NameAndType [onBackPressed ()V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [onDestroy ()V]
+  + NameAndType [remove (Ljava/lang/Object;)Z]
+  + NameAndType [requestWindowFeature (I)Z]
+  + NameAndType [show ()V]
+  + Utf8 [()Ljava/lang/Class;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Z]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [Ljava/util/ArrayList;]
+  + Utf8 [a]
+  + Utf8 [add]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/widget/Toast]
+  + Utf8 [b]
+  + Utf8 [com/example/bottommenubar/a]
+  + Utf8 [getClass]
+  + Utf8 [getSimpleName]
+  + Utf8 [goBack]
+  + Utf8 [goNext]
+  + Utf8 [java/lang/Class]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/util/ArrayList]
+  + Utf8 [makeText]
+  + Utf8 [onBackPressed]
+  + Utf8 [onCreate]
+  + Utf8 [onDestroy]
+  + Utf8 [remove]
+  + Utf8 [requestWindowFeature]
+  + Utf8 [show]
+  + Utf8 [自定义跳转页面]
+
+Fields (count = 2):
+  + Field:        a Ljava/lang/String;
+    Access flags: 0x4
+      = protected java.lang.String a
+  + Field:        b Ljava/util/ArrayList;
+    Access flags: 0xa
+      = private static java.util.ArrayList b
+
+Methods (count = 7):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 11, locals = 0, stack = 2):
+      [0] new #7
+        + Class [java/util/ArrayList]
+      [3] dup
+      [4] invokespecial #20
+        + Methodref [java/util/ArrayList.<init> ()V]
+      [7] putstatic #9
+        + Fieldref [com/example/bottommenubar/a.b Ljava/util/ArrayList;]
+      [10] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 16, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #10
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] aload_0 v0
+      [5] aload_0 v0
+      [6] invokevirtual #19
+        + Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+      [9] invokevirtual #18
+        + Methodref [java/lang/Class.getSimpleName ()Ljava/lang/String;]
+      [12] putfield #8
+        + Fieldref [com/example/bottommenubar/a.a Ljava/lang/String;]
+      [15] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 20, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #11
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] iconst_1
+      [7] invokevirtual #17
+        + Methodref [com/example/bottommenubar/a.requestWindowFeature (I)Z]
+      [10] pop
+      [11] getstatic #9
+        + Fieldref [com/example/bottommenubar/a.b Ljava/util/ArrayList;]
+      [14] aload_0 v0
+      [15] invokevirtual #21
+        + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+      [18] pop
+      [19] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onDestroy()V
+    Access flags: 0x4
+      = protected void onDestroy()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #12
+        + Methodref [android/app/Activity.onDestroy ()V]
+      [4] getstatic #9
+        + Fieldref [com/example/bottommenubar/a.b Ljava/util/ArrayList;]
+      [7] aload_0 v0
+      [8] invokevirtual #22
+        + Methodref [java/util/ArrayList.remove (Ljava/lang/Object;)Z]
+      [11] pop
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       goBack(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void goBack(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 2, stack = 1):
+      [0] aload_0 v0
+      [1] invokevirtual #16
+        + Methodref [com/example/bottommenubar/a.onBackPressed ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       goNext(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void goNext(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 7, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] ldc #1
+        + String [自定义跳转页面]
+      [3] invokevirtual #15
+        + Methodref [com/example/bottommenubar/a.a (Ljava/lang/String;)V]
+      [6] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/lang/String;)V
+    Access flags: 0x4
+      = protected void a(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] iconst_0
+      [3] invokestatic #13
+        + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+      [6] invokevirtual #14
+        + Methodref [android/widget/Toast.show ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/bottommenubar/b
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.bottommenubar.b extends java.lang.Object
+
+Interfaces (count = 2):
+  + Class [android/view/View$OnClickListener]
+  + Class [com/example/bottommenubar/e]
+
+Constant Pool (count = 144):
+  + Integer [2130968579]
+  + Integer [2130968580]
+  + Integer [2131230721]
+  + Class [android/app/Activity]
+  + Class [android/content/res/Resources]
+  + Class [android/view/View]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/ImageView]
+  + Class [android/widget/LinearLayout]
+  + Class [android/widget/TextView]
+  + Class [com/example/bottommenubar/ViewContainer]
+  + Class [com/example/bottommenubar/b]
+  + Class [com/example/bottommenubar/c]
+  + Class [com/example/bottommenubar/d]
+  + Class [com/example/bottommenubar/e]
+  + Class [com/example/bottommenubar/f]
+  + Class [java/lang/Object]
+  + Fieldref [com/example/bottommenubar/b.a Landroid/app/Activity;]
+  + Fieldref [com/example/bottommenubar/b.b I]
+  + Fieldref [com/example/bottommenubar/b.c I]
+  + Fieldref [com/example/bottommenubar/b.d Lcom/example/bottommenubar/d;]
+  + Fieldref [com/example/bottommenubar/b.e Lcom/example/bottommenubar/ViewContainer;]
+  + Fieldref [com/example/bottommenubar/b.f Lcom/example/bottommenubar/c;]
+  + Fieldref [com/example/bottommenubar/b.g Lcom/example/bottommenubar/f;]
+  + Fieldref [com/example/bottommenubar/d.b I]
+  + Fieldref [com/example/bottommenubar/d.c [Landroid/widget/ImageView;]
+  + Fieldref [com/example/bottommenubar/d.d [Landroid/widget/TextView;]
+  + Fieldref [com/example/bottommenubar/d.e [Landroid/widget/LinearLayout;]
+  + Fieldref [com/example/bottommenubar/d.f [I]
+  + Fieldref [com/example/bottommenubar/d.g [I]
+  + Fieldref [com/example/bottommenubar/d.h [I]
+  + Fieldref [com/example/bottommenubar/d.i [I]
+  + Fieldref [com/example/bottommenubar/d.j [I]
+  + Fieldref [com/example/bottommenubar/d.k [I]
+  + Methodref [android/app/Activity.findViewById (I)Landroid/view/View;]
+  + Methodref [android/app/Activity.getResources ()Landroid/content/res/Resources;]
+  + Methodref [android/content/res/Resources.getColor (I)I]
+  + Methodref [android/view/View.getId ()I]
+  + Methodref [android/widget/ImageView.setBackgroundResource (I)V]
+  + Methodref [android/widget/LinearLayout.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [android/widget/TextView.setTextColor (I)V]
+  + Methodref [com/example/bottommenubar/ViewContainer.a (I)V]
+  + Methodref [com/example/bottommenubar/ViewContainer.setViewFactory (Lcom/example/bottommenubar/e;)V]
+  + Methodref [com/example/bottommenubar/b.a ()V]
+  + Methodref [com/example/bottommenubar/b.a (I)V]
+  + Methodref [com/example/bottommenubar/b.c (I)V]
+  + Methodref [com/example/bottommenubar/c.<init> (Landroid/app/Activity;ILcom/example/bottommenubar/b;)V]
+  + Methodref [com/example/bottommenubar/c.a ()Landroid/view/View;]
+  + Methodref [com/example/bottommenubar/d.a ()Lcom/example/bottommenubar/d;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + InterfaceMethodref [com/example/bottommenubar/f.a (I)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/app/Activity;ILcom/example/bottommenubar/b;)V]
+  + NameAndType [a ()Landroid/view/View;]
+  + NameAndType [a ()Lcom/example/bottommenubar/d;]
+  + NameAndType [a ()V]
+  + NameAndType [a (I)V]
+  + NameAndType [a Landroid/app/Activity;]
+  + NameAndType [b I]
+  + NameAndType [c (I)V]
+  + NameAndType [c I]
+  + NameAndType [c [Landroid/widget/ImageView;]
+  + NameAndType [d Lcom/example/bottommenubar/d;]
+  + NameAndType [d [Landroid/widget/TextView;]
+  + NameAndType [e Lcom/example/bottommenubar/ViewContainer;]
+  + NameAndType [e [Landroid/widget/LinearLayout;]
+  + NameAndType [f Lcom/example/bottommenubar/c;]
+  + NameAndType [f [I]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [g Lcom/example/bottommenubar/f;]
+  + NameAndType [g [I]
+  + NameAndType [getColor (I)I]
+  + NameAndType [getId ()I]
+  + NameAndType [getResources ()Landroid/content/res/Resources;]
+  + NameAndType [h [I]
+  + NameAndType [i [I]
+  + NameAndType [j [I]
+  + NameAndType [k [I]
+  + NameAndType [setBackgroundResource (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [setTextColor (I)V]
+  + NameAndType [setViewFactory (Lcom/example/bottommenubar/e;)V]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/content/res/Resources;]
+  + Utf8 [()Landroid/view/View;]
+  + Utf8 [()Lcom/example/bottommenubar/d;]
+  + Utf8 [()V]
+  + Utf8 [(I)I]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/app/Activity;)V]
+  + Utf8 [(Landroid/app/Activity;ILcom/example/bottommenubar/b;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/example/bottommenubar/e;)V]
+  + Utf8 [(Lcom/example/bottommenubar/f;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Landroid/app/Activity;]
+  + Utf8 [Lcom/example/bottommenubar/ViewContainer;]
+  + Utf8 [Lcom/example/bottommenubar/c;]
+  + Utf8 [Lcom/example/bottommenubar/d;]
+  + Utf8 [Lcom/example/bottommenubar/f;]
+  + Utf8 [StackMapTable]
+  + Utf8 [[I]
+  + Utf8 [[Landroid/widget/ImageView;]
+  + Utf8 [[Landroid/widget/LinearLayout;]
+  + Utf8 [[Landroid/widget/TextView;]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/content/res/Resources]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/ImageView]
+  + Utf8 [android/widget/LinearLayout]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/example/bottommenubar/ViewContainer]
+  + Utf8 [com/example/bottommenubar/b]
+  + Utf8 [com/example/bottommenubar/c]
+  + Utf8 [com/example/bottommenubar/d]
+  + Utf8 [com/example/bottommenubar/e]
+  + Utf8 [com/example/bottommenubar/f]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [findViewById]
+  + Utf8 [g]
+  + Utf8 [getColor]
+  + Utf8 [getId]
+  + Utf8 [getResources]
+  + Utf8 [h]
+  + Utf8 [i]
+  + Utf8 [j]
+  + Utf8 [java/lang/Object]
+  + Utf8 [k]
+  + Utf8 [onClick]
+  + Utf8 [setBackgroundResource]
+  + Utf8 [setOnClickListener]
+  + Utf8 [setTextColor]
+  + Utf8 [setViewFactory]
+
+Fields (count = 7):
+  + Field:        a Landroid/app/Activity;
+    Access flags: 0x0
+      = android.app.Activity a
+  + Field:        b I
+    Access flags: 0x0
+      = int b
+  + Field:        c I
+    Access flags: 0x0
+      = int c
+  + Field:        d Lcom/example/bottommenubar/d;
+    Access flags: 0x0
+      = com.example.bottommenubar.d d
+  + Field:        e Lcom/example/bottommenubar/ViewContainer;
+    Access flags: 0x1
+      = public com.example.bottommenubar.ViewContainer e
+  + Field:        f Lcom/example/bottommenubar/c;
+    Access flags: 0x1
+      = public com.example.bottommenubar.c f
+  + Field:        g Lcom/example/bottommenubar/f;
+    Access flags: 0x0
+      = com.example.bottommenubar.f g
+
+Methods (count = 7):
+  - Method:       <init>(Landroid/app/Activity;)V
+    Access flags: 0x1
+      = public b(android.app.Activity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 31, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #50
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] iconst_m1
+      [6] putfield #19
+        + Fieldref [com/example/bottommenubar/b.b I]
+      [9] aload_0 v0
+      [10] iconst_m1
+      [11] putfield #20
+        + Fieldref [com/example/bottommenubar/b.c I]
+      [14] aload_0 v0
+      [15] aload_1 v1
+      [16] putfield #18
+        + Fieldref [com/example/bottommenubar/b.a Landroid/app/Activity;]
+      [19] aload_0 v0
+      [20] invokestatic #49
+        + Methodref [com/example/bottommenubar/d.a ()Lcom/example/bottommenubar/d;]
+      [23] putfield #21
+        + Fieldref [com/example/bottommenubar/b.d Lcom/example/bottommenubar/d;]
+      [26] aload_0 v0
+      [27] invokespecial #44
+        + Methodref [com/example/bottommenubar/b.a ()V]
+      [30] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()V
+    Access flags: 0x2
+      = private void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 146, locals = 2, stack = 5):
+      [0] iconst_0
+      [1] istore_1 v1
+      [2] goto +103 (target=105)
+      [5] aload_0 v0
+      [6] getfield #21
+        + Fieldref [com/example/bottommenubar/b.d Lcom/example/bottommenubar/d;]
+      [9] getfield #28
+        + Fieldref [com/example/bottommenubar/d.e [Landroid/widget/LinearLayout;]
+      [12] iload_1 v1
+      [13] aload_0 v0
+      [14] getfield #18
+        + Fieldref [com/example/bottommenubar/b.a Landroid/app/Activity;]
+      [17] aload_0 v0
+      [18] getfield #21
+        + Fieldref [com/example/bottommenubar/b.d Lcom/example/bottommenubar/d;]
+      [21] getfield #31
+        + Fieldref [com/example/bottommenubar/d.h [I]
+      [24] iload_1 v1
+      [25] iaload
+      [26] invokevirtual #35
+        + Methodref [android/app/Activity.findViewById (I)Landroid/view/View;]
+      [29] checkcast #9
+        + Class [android/widget/LinearLayout]
+      [32] aastore
+      [33] aload_0 v0
+      [34] getfield #21
+        + Fieldref [com/example/bottommenubar/b.d Lcom/example/bottommenubar/d;]
+      [37] getfield #28
+        + Fieldref [com/example/bottommenubar/d.e [Landroid/widget/LinearLayout;]
+      [40] iload_1 v1
+      [41] aaload
+      [42] aload_0 v0
+      [43] invokevirtual #40
+        + Methodref [android/widget/LinearLayout.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [46] aload_0 v0
+      [47] getfield #21
+        + Fieldref [com/example/bottommenubar/b.d Lcom/example/bottommenubar/d;]
+      [50] getfield #26
+        + Fieldref [com/example/bottommenubar/d.c [Landroid/widget/ImageView;]
+      [53] iload_1 v1
+      [54] aload_0 v0
+      [55] getfield #18
+        + Fieldref [com/example/bottommenubar/b.a Landroid/app/Activity;]
+      [58] aload_0 v0
+      [59] getfield #21
+        + Fieldref [com/example/bottommenubar/b.d Lcom/example/bottommenubar/d;]
+      [62] getfield #29
+        + Fieldref [com/example/bottommenubar/d.f [I]
+      [65] iload_1 v1
+      [66] iaload
+      [67] invokevirtual #35
+        + Methodref [android/app/Activity.findViewById (I)Landroid/view/View;]
+      [70] checkcast #8
+        + Class [android/widget/ImageView]
+      [73] aastore
+      [74] aload_0 v0
+      [75] getfield #21
+        + Fieldref [com/example/bottommenubar/b.d Lcom/example/bottommenubar/d;]
+      [78] getfield #27
+        + Fieldref [com/example/bottommenubar/d.d [Landroid/widget/TextView;]
+      [81] iload_1 v1
+      [82] aload_0 v0
+      [83] getfield #18
+        + Fieldref [com/example/bottommenubar/b.a Landroid/app/Activity;]
+      [86] aload_0 v0
+      [87] getfield #21
+        + Fieldref [com/example/bottommenubar/b.d Lcom/example/bottommenubar/d;]
+      [90] getfield #30
+        + Fieldref [com/example/bottommenubar/d.g [I]
+      [93] iload_1 v1
+      [94] iaload
+      [95] invokevirtual #35
+        + Methodref [android/app/Activity.findViewById (I)Landroid/view/View;]
+      [98] checkcast #10
+        + Class [android/widget/TextView]
+      [101] aastore
+      [102] iinc v1, 1
+      [105] iload_1 v1
+      [106] aload_0 v0
+      [107] getfield #21
+        + Fieldref [com/example/bottommenubar/b.d Lcom/example/bottommenubar/d;]
+      [110] getfield #25
+        + Fieldref [com/example/bottommenubar/d.b I]
+      [113] ificmplt -108 (target=5)
+      [116] aload_0 v0
+      [117] aload_0 v0
+      [118] getfield #18
+        + Fieldref [com/example/bottommenubar/b.a Landroid/app/Activity;]
+      [121] ldc #3
+        + Integer [2131230721]
+      [123] invokevirtual #35
+        + Methodref [android/app/Activity.findViewById (I)Landroid/view/View;]
+      [126] checkcast #11
+        + Class [com/example/bottommenubar/ViewContainer]
+      [129] putfield #22
+        + Fieldref [com/example/bottommenubar/b.e Lcom/example/bottommenubar/ViewContainer;]
+      [132] aload_0 v0
+      [133] getfield #22
+        + Fieldref [com/example/bottommenubar/b.e Lcom/example/bottommenubar/ViewContainer;]
+      [136] aload_0 v0
+      [137] invokevirtual #43
+        + Methodref [com/example/bottommenubar/ViewContainer.setViewFactory (Lcom/example/bottommenubar/e;)V]
+      [140] aload_0 v0
+      [141] iconst_0
+      [142] invokevirtual #45
+        + Methodref [com/example/bottommenubar/b.a (I)V]
+      [145] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [5] Var: ...[i], Stack: (empty)
+        - [105] Var: ..., Stack: (empty)
+  + Method:       a(Lcom/example/bottommenubar/f;)V
+    Access flags: 0x1
+      = public void a(com.example.bottommenubar.f)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #24
+        + Fieldref [com/example/bottommenubar/b.g Lcom/example/bottommenubar/f;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(I)V
+    Access flags: 0x1
+      = public void a(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 23, locals = 2, stack = 2):
+      [0] iload_1 v1
+      [1] aload_0 v0
+      [2] getfield #19
+        + Fieldref [com/example/bottommenubar/b.b I]
+      [5] ificmpne +4 (target=9)
+      [8] return
+      [9] aload_0 v0
+      [10] iload_1 v1
+      [11] invokespecial #46
+        + Methodref [com/example/bottommenubar/b.c (I)V]
+      [14] aload_0 v0
+      [15] getfield #22
+        + Fieldref [com/example/bottommenubar/b.e Lcom/example/bottommenubar/ViewContainer;]
+      [18] iload_1 v1
+      [19] invokevirtual #42
+        + Methodref [com/example/bottommenubar/ViewContainer.a (I)V]
+      [22] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [9] Var: ..., Stack: (empty)
+  + Method:       c(I)V
+    Access flags: 0x2
+      = private void c(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 124, locals = 3, stack = 3):
+      [0] iload_1 v1
+      [1] aload_0 v0
+      [2] getfield #19
+        + Fieldref [com/example/bottommenubar/b.b I]
+      [5] ificmpne +4 (target=9)
+      [8] return
+      [9] aload_0 v0
+      [10] aload_0 v0
+      [11] getfield #19
+        + Fieldref [com/example/bottommenubar/b.b I]
+      [14] putfield #20
+        + Fieldref [com/example/bottommenubar/b.c I]
+      [17] aload_0 v0
+      [18] iload_1 v1
+      [19] putfield #19
+        + Fieldref [com/example/bottommenubar/b.b I]
+      [22] iconst_0
+      [23] istore_2 v2
+      [24] goto +88 (target=112)
+      [27] aload_0 v0
+      [28] getfield #21
+        + Fieldref [com/example/bottommenubar/b.d Lcom/example/bottommenubar/d;]
+      [31] getfield #26
+        + Fieldref [com/example/bottommenubar/d.c [Landroid/widget/ImageView;]
+      [34] iload_2 v2
+      [35] aaload
+      [36] iload_2 v2
+      [37] iload_1 v1
+      [38] ificmpne +15 (target=53)
+      [41] aload_0 v0
+      [42] getfield #21
+        + Fieldref [com/example/bottommenubar/b.d Lcom/example/bottommenubar/d;]
+      [45] getfield #32
+        + Fieldref [com/example/bottommenubar/d.i [I]
+      [48] iload_2 v2
+      [49] iaload
+      [50] goto +12 (target=62)
+      [53] aload_0 v0
+      [54] getfield #21
+        + Fieldref [com/example/bottommenubar/b.d Lcom/example/bottommenubar/d;]
+      [57] getfield #33
+        + Fieldref [com/example/bottommenubar/d.j [I]
+      [60] iload_2 v2
+      [61] iaload
+      [62] invokevirtual #39
+        + Methodref [android/widget/ImageView.setBackgroundResource (I)V]
+      [65] aload_0 v0
+      [66] getfield #21
+        + Fieldref [com/example/bottommenubar/b.d Lcom/example/bottommenubar/d;]
+      [69] getfield #27
+        + Fieldref [com/example/bottommenubar/d.d [Landroid/widget/TextView;]
+      [72] iload_2 v2
+      [73] aaload
+      [74] iload_2 v2
+      [75] iload_1 v1
+      [76] ificmpne +18 (target=94)
+      [79] aload_0 v0
+      [80] getfield #18
+        + Fieldref [com/example/bottommenubar/b.a Landroid/app/Activity;]
+      [83] invokevirtual #36
+        + Methodref [android/app/Activity.getResources ()Landroid/content/res/Resources;]
+      [86] ldc #1
+        + Integer [2130968579]
+      [88] invokevirtual #37
+        + Methodref [android/content/res/Resources.getColor (I)I]
+      [91] goto +15 (target=106)
+      [94] aload_0 v0
+      [95] getfield #18
+        + Fieldref [com/example/bottommenubar/b.a Landroid/app/Activity;]
+      [98] invokevirtual #36
+        + Methodref [android/app/Activity.getResources ()Landroid/content/res/Resources;]
+      [101] ldc #2
+        + Integer [2130968580]
+      [103] invokevirtual #37
+        + Methodref [android/content/res/Resources.getColor (I)I]
+      [106] invokevirtual #41
+        + Methodref [android/widget/TextView.setTextColor (I)V]
+      [109] iinc v2, 1
+      [112] iload_2 v2
+      [113] aload_0 v0
+      [114] getfield #21
+        + Fieldref [com/example/bottommenubar/b.d Lcom/example/bottommenubar/d;]
+      [117] getfield #25
+        + Fieldref [com/example/bottommenubar/d.b I]
+      [120] ificmplt -93 (target=27)
+      [123] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 7):
+        - [9] Var: ..., Stack: (empty)
+        - [27] Var: ...[i], Stack: (empty)
+        - [53] Var: ..., Stack: [a:android/widget/ImageView]
+        - [62] Var: [a:com/example/bottommenubar/b][i][i], Stack: [a:android/widget/ImageView][i]
+        - [94] Var: ..., Stack: [a:android/widget/TextView]
+        - [106] Var: [a:com/example/bottommenubar/b][i][i], Stack: [a:android/widget/TextView][i]
+        - [112] Var: ..., Stack: (empty)
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 51, locals = 3, stack = 3):
+      [0] iconst_0
+      [1] istore_2 v2
+      [2] goto +37 (target=39)
+      [5] aload_1 v1
+      [6] invokevirtual #38
+        + Methodref [android/view/View.getId ()I]
+      [9] aload_0 v0
+      [10] getfield #21
+        + Fieldref [com/example/bottommenubar/b.d Lcom/example/bottommenubar/d;]
+      [13] getfield #31
+        + Fieldref [com/example/bottommenubar/d.h [I]
+      [16] iload_2 v2
+      [17] iaload
+      [18] ificmpne +18 (target=36)
+      [21] aload_0 v0
+      [22] iload_2 v2
+      [23] invokevirtual #45
+        + Methodref [com/example/bottommenubar/b.a (I)V]
+      [26] aload_0 v0
+      [27] getfield #24
+        + Fieldref [com/example/bottommenubar/b.g Lcom/example/bottommenubar/f;]
+      [30] iload_2 v2
+      [31] invokeinterface #51
+        + InterfaceMethodref [com/example/bottommenubar/f.a (I)V]
+      [36] iinc v2, 1
+      [39] iload_2 v2
+      [40] aload_0 v0
+      [41] getfield #21
+        + Fieldref [com/example/bottommenubar/b.d Lcom/example/bottommenubar/d;]
+      [44] getfield #25
+        + Fieldref [com/example/bottommenubar/d.b I]
+      [47] ificmplt -42 (target=5)
+      [50] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [5] Var: ...[i], Stack: (empty)
+        - [36] Var: ..., Stack: (empty)
+        - [39] Var: ..., Stack: (empty)
+  + Method:       b(I)Landroid/view/View;
+    Access flags: 0x1
+      = public android.view.View b(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 33, locals = 2, stack = 6):
+      [0] aload_0 v0
+      [1] new #13
+        + Class [com/example/bottommenubar/c]
+      [4] dup
+      [5] aload_0 v0
+      [6] getfield #18
+        + Fieldref [com/example/bottommenubar/b.a Landroid/app/Activity;]
+      [9] aload_0 v0
+      [10] getfield #21
+        + Fieldref [com/example/bottommenubar/b.d Lcom/example/bottommenubar/d;]
+      [13] getfield #34
+        + Fieldref [com/example/bottommenubar/d.k [I]
+      [16] iload_1 v1
+      [17] iaload
+      [18] aload_0 v0
+      [19] invokespecial #47
+        + Methodref [com/example/bottommenubar/c.<init> (Landroid/app/Activity;ILcom/example/bottommenubar/b;)V]
+      [22] putfield #23
+        + Fieldref [com/example/bottommenubar/b.f Lcom/example/bottommenubar/c;]
+      [25] aload_0 v0
+      [26] getfield #23
+        + Fieldref [com/example/bottommenubar/b.f Lcom/example/bottommenubar/c;]
+      [29] invokevirtual #48
+        + Methodref [com/example/bottommenubar/c.a ()Landroid/view/View;]
+      [32] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/bottommenubar/c
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.bottommenubar.c extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 42):
+  + Class [android/app/Activity]
+  + Class [android/view/LayoutInflater]
+  + Class [android/view/View]
+  + Class [com/example/bottommenubar/c]
+  + Class [java/lang/Object]
+  + Fieldref [com/example/bottommenubar/c.a Landroid/app/Activity;]
+  + Fieldref [com/example/bottommenubar/c.b Lcom/example/bottommenubar/b;]
+  + Fieldref [com/example/bottommenubar/c.c Landroid/view/View;]
+  + Methodref [android/app/Activity.getLayoutInflater ()Landroid/view/LayoutInflater;]
+  + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + Methodref [android/view/View.setTag (Ljava/lang/Object;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Landroid/app/Activity;]
+  + NameAndType [b Lcom/example/bottommenubar/b;]
+  + NameAndType [c Landroid/view/View;]
+  + NameAndType [getLayoutInflater ()Landroid/view/LayoutInflater;]
+  + NameAndType [inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + NameAndType [setTag (Ljava/lang/Object;)V]
+  + Utf8 [()Landroid/view/LayoutInflater;]
+  + Utf8 [()Landroid/view/View;]
+  + Utf8 [()V]
+  + Utf8 [(ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + Utf8 [(Landroid/app/Activity;ILcom/example/bottommenubar/b;)V]
+  + Utf8 [(Ljava/lang/Object;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/app/Activity;]
+  + Utf8 [Landroid/view/View;]
+  + Utf8 [Lcom/example/bottommenubar/b;]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/view/LayoutInflater]
+  + Utf8 [android/view/View]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/example/bottommenubar/c]
+  + Utf8 [getLayoutInflater]
+  + Utf8 [inflate]
+  + Utf8 [java/lang/Object]
+  + Utf8 [setTag]
+
+Fields (count = 3):
+  + Field:        a Landroid/app/Activity;
+    Access flags: 0x4
+      = protected android.app.Activity a
+  + Field:        b Lcom/example/bottommenubar/b;
+    Access flags: 0x4
+      = protected com.example.bottommenubar.b b
+  + Field:        c Landroid/view/View;
+    Access flags: 0x4
+      = protected android.view.View c
+
+Methods (count = 4):
+  - Method:       <init>(Landroid/app/Activity;ILcom/example/bottommenubar/b;)V
+    Access flags: 0x1
+      = public c(android.app.Activity,int,com.example.bottommenubar.b)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 39, locals = 4, stack = 4):
+      [0] aload_0 v0
+      [1] invokespecial #12
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] aload_1 v1
+      [6] putfield #6
+        + Fieldref [com/example/bottommenubar/c.a Landroid/app/Activity;]
+      [9] aload_0 v0
+      [10] aload_3 v3
+      [11] putfield #7
+        + Fieldref [com/example/bottommenubar/c.b Lcom/example/bottommenubar/b;]
+      [14] aload_0 v0
+      [15] aload_0 v0
+      [16] getfield #6
+        + Fieldref [com/example/bottommenubar/c.a Landroid/app/Activity;]
+      [19] invokevirtual #9
+        + Methodref [android/app/Activity.getLayoutInflater ()Landroid/view/LayoutInflater;]
+      [22] iload_2 v2
+      [23] aconst_null
+      [24] invokevirtual #10
+        + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+      [27] putfield #8
+        + Fieldref [com/example/bottommenubar/c.c Landroid/view/View;]
+      [30] aload_0 v0
+      [31] getfield #8
+        + Fieldref [com/example/bottommenubar/c.c Landroid/view/View;]
+      [34] aload_0 v0
+      [35] invokevirtual #11
+        + Methodref [android/view/View.setTag (Ljava/lang/Object;)V]
+      [38] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()Landroid/view/View;
+    Access flags: 0x1
+      = public android.view.View a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #8
+        + Fieldref [com/example/bottommenubar/c.c Landroid/view/View;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b()V
+    Access flags: 0x1
+      = public void b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 1, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       c()V
+    Access flags: 0x1
+      = public void c()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 1, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/bottommenubar/d
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.bottommenubar.d extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 82):
+  + Integer [2130837521]
+  + Integer [2130837522]
+  + Integer [2130837527]
+  + Integer [2130837528]
+  + Integer [2130837531]
+  + Integer [2130837532]
+  + Integer [2130837533]
+  + Integer [2130837537]
+  + Integer [2130903042]
+  + Integer [2130903043]
+  + Integer [2130903044]
+  + Integer [2130903045]
+  + Integer [2131230722]
+  + Integer [2131230723]
+  + Integer [2131230724]
+  + Integer [2131230725]
+  + Integer [2131230726]
+  + Integer [2131230727]
+  + Integer [2131230728]
+  + Integer [2131230729]
+  + Integer [2131230730]
+  + Integer [2131230731]
+  + Integer [2131230732]
+  + Integer [2131230733]
+  + Class [android/widget/ImageView]
+  + Class [android/widget/LinearLayout]
+  + Class [android/widget/TextView]
+  + Class [com/example/bottommenubar/d]
+  + Class [java/lang/Object]
+  + Fieldref [com/example/bottommenubar/d.a Lcom/example/bottommenubar/d;]
+  + Fieldref [com/example/bottommenubar/d.b I]
+  + Fieldref [com/example/bottommenubar/d.c [Landroid/widget/ImageView;]
+  + Fieldref [com/example/bottommenubar/d.d [Landroid/widget/TextView;]
+  + Fieldref [com/example/bottommenubar/d.e [Landroid/widget/LinearLayout;]
+  + Fieldref [com/example/bottommenubar/d.f [I]
+  + Fieldref [com/example/bottommenubar/d.g [I]
+  + Fieldref [com/example/bottommenubar/d.h [I]
+  + Fieldref [com/example/bottommenubar/d.i [I]
+  + Fieldref [com/example/bottommenubar/d.j [I]
+  + Fieldref [com/example/bottommenubar/d.k [I]
+  + Methodref [com/example/bottommenubar/d.<init> ()V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lcom/example/bottommenubar/d;]
+  + NameAndType [b I]
+  + NameAndType [c [Landroid/widget/ImageView;]
+  + NameAndType [d [Landroid/widget/TextView;]
+  + NameAndType [e [Landroid/widget/LinearLayout;]
+  + NameAndType [f [I]
+  + NameAndType [g [I]
+  + NameAndType [h [I]
+  + NameAndType [i [I]
+  + NameAndType [j [I]
+  + NameAndType [k [I]
+  + Utf8 [()Lcom/example/bottommenubar/d;]
+  + Utf8 [()V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Lcom/example/bottommenubar/d;]
+  + Utf8 [StackMapTable]
+  + Utf8 [[I]
+  + Utf8 [[Landroid/widget/ImageView;]
+  + Utf8 [[Landroid/widget/LinearLayout;]
+  + Utf8 [[Landroid/widget/TextView;]
+  + Utf8 [a]
+  + Utf8 [android/widget/ImageView]
+  + Utf8 [android/widget/LinearLayout]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/example/bottommenubar/d]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [g]
+  + Utf8 [h]
+  + Utf8 [i]
+  + Utf8 [j]
+  + Utf8 [java/lang/Object]
+  + Utf8 [k]
+
+Fields (count = 11):
+  + Field:        a Lcom/example/bottommenubar/d;
+    Access flags: 0x9
+      = public static com.example.bottommenubar.d a
+  + Field:        b I
+    Access flags: 0x1
+      = public int b
+  + Field:        c [Landroid/widget/ImageView;
+    Access flags: 0x1
+      = public android.widget.ImageView[] c
+  + Field:        d [Landroid/widget/TextView;
+    Access flags: 0x1
+      = public android.widget.TextView[] d
+  + Field:        e [Landroid/widget/LinearLayout;
+    Access flags: 0x1
+      = public android.widget.LinearLayout[] e
+  + Field:        f [I
+    Access flags: 0x1
+      = public int[] f
+  + Field:        g [I
+    Access flags: 0x1
+      = public int[] g
+  + Field:        h [I
+    Access flags: 0x1
+      = public int[] h
+  + Field:        i [I
+    Access flags: 0x1
+      = public int[] i
+  + Field:        j [I
+    Access flags: 0x1
+      = public int[] j
+  + Field:        k [I
+    Access flags: 0x1
+      = public int[] k
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public d()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 205, locals = 1, stack = 5):
+      [0] aload_0 v0
+      [1] invokespecial #42
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] iconst_4
+      [6] putfield #31
+        + Fieldref [com/example/bottommenubar/d.b I]
+      [9] aload_0 v0
+      [10] aload_0 v0
+      [11] getfield #31
+        + Fieldref [com/example/bottommenubar/d.b I]
+      [14] anewarray #25
+        + Class [android/widget/ImageView]
+      [17] putfield #32
+        + Fieldref [com/example/bottommenubar/d.c [Landroid/widget/ImageView;]
+      [20] aload_0 v0
+      [21] aload_0 v0
+      [22] getfield #31
+        + Fieldref [com/example/bottommenubar/d.b I]
+      [25] anewarray #27
+        + Class [android/widget/TextView]
+      [28] putfield #33
+        + Fieldref [com/example/bottommenubar/d.d [Landroid/widget/TextView;]
+      [31] aload_0 v0
+      [32] aload_0 v0
+      [33] getfield #31
+        + Fieldref [com/example/bottommenubar/d.b I]
+      [36] anewarray #26
+        + Class [android/widget/LinearLayout]
+      [39] putfield #34
+        + Fieldref [com/example/bottommenubar/d.e [Landroid/widget/LinearLayout;]
+      [42] aload_0 v0
+      [43] iconst_4
+      [44] newarray 10
+      [46] dup
+      [47] iconst_0
+      [48] ldc #14
+        + Integer [2131230723]
+      [50] iastore
+      [51] dup
+      [52] iconst_1
+      [53] ldc #17
+        + Integer [2131230726]
+      [55] iastore
+      [56] dup
+      [57] iconst_2
+      [58] ldc #20
+        + Integer [2131230729]
+      [60] iastore
+      [61] dup
+      [62] iconst_3
+      [63] ldc #23
+        + Integer [2131230732]
+      [65] iastore
+      [66] putfield #35
+        + Fieldref [com/example/bottommenubar/d.f [I]
+      [69] aload_0 v0
+      [70] iconst_4
+      [71] newarray 10
+      [73] dup
+      [74] iconst_0
+      [75] ldc #15
+        + Integer [2131230724]
+      [77] iastore
+      [78] dup
+      [79] iconst_1
+      [80] ldc #18
+        + Integer [2131230727]
+      [82] iastore
+      [83] dup
+      [84] iconst_2
+      [85] ldc #21
+        + Integer [2131230730]
+      [87] iastore
+      [88] dup
+      [89] iconst_3
+      [90] ldc #24
+        + Integer [2131230733]
+      [92] iastore
+      [93] putfield #36
+        + Fieldref [com/example/bottommenubar/d.g [I]
+      [96] aload_0 v0
+      [97] iconst_4
+      [98] newarray 10
+      [100] dup
+      [101] iconst_0
+      [102] ldc #13
+        + Integer [2131230722]
+      [104] iastore
+      [105] dup
+      [106] iconst_1
+      [107] ldc #16
+        + Integer [2131230725]
+      [109] iastore
+      [110] dup
+      [111] iconst_2
+      [112] ldc #19
+        + Integer [2131230728]
+      [114] iastore
+      [115] dup
+      [116] iconst_3
+      [117] ldc #22
+        + Integer [2131230731]
+      [119] iastore
+      [120] putfield #37
+        + Fieldref [com/example/bottommenubar/d.h [I]
+      [123] aload_0 v0
+      [124] iconst_4
+      [125] newarray 10
+      [127] dup
+      [128] iconst_0
+      [129] ldc #3
+        + Integer [2130837527]
+      [131] iastore
+      [132] dup
+      [133] iconst_1
+      [134] ldc #1
+        + Integer [2130837521]
+      [136] iastore
+      [137] dup
+      [138] iconst_2
+      [139] ldc #5
+        + Integer [2130837531]
+      [141] iastore
+      [142] dup
+      [143] iconst_3
+      [144] ldc #7
+        + Integer [2130837533]
+      [146] iastore
+      [147] putfield #38
+        + Fieldref [com/example/bottommenubar/d.i [I]
+      [150] aload_0 v0
+      [151] iconst_4
+      [152] newarray 10
+      [154] dup
+      [155] iconst_0
+      [156] ldc #4
+        + Integer [2130837528]
+      [158] iastore
+      [159] dup
+      [160] iconst_1
+      [161] ldc #2
+        + Integer [2130837522]
+      [163] iastore
+      [164] dup
+      [165] iconst_2
+      [166] ldc #6
+        + Integer [2130837532]
+      [168] iastore
+      [169] dup
+      [170] iconst_3
+      [171] ldc #8
+        + Integer [2130837537]
+      [173] iastore
+      [174] putfield #39
+        + Fieldref [com/example/bottommenubar/d.j [I]
+      [177] aload_0 v0
+      [178] iconst_4
+      [179] newarray 10
+      [181] dup
+      [182] iconst_0
+      [183] ldc #10
+        + Integer [2130903043]
+      [185] iastore
+      [186] dup
+      [187] iconst_1
+      [188] ldc #9
+        + Integer [2130903042]
+      [190] iastore
+      [191] dup
+      [192] iconst_2
+      [193] ldc #11
+        + Integer [2130903044]
+      [195] iastore
+      [196] dup
+      [197] iconst_3
+      [198] ldc #12
+        + Integer [2130903045]
+      [200] iastore
+      [201] putfield #40
+        + Fieldref [com/example/bottommenubar/d.k [I]
+      [204] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()Lcom/example/bottommenubar/d;
+    Access flags: 0x9
+      = public static com.example.bottommenubar.d a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 20, locals = 0, stack = 2):
+      [0] getstatic #30
+        + Fieldref [com/example/bottommenubar/d.a Lcom/example/bottommenubar/d;]
+      [3] ifnonnull +13 (target=16)
+      [6] new #28
+        + Class [com/example/bottommenubar/d]
+      [9] dup
+      [10] invokespecial #41
+        + Methodref [com/example/bottommenubar/d.<init> ()V]
+      [13] putstatic #30
+        + Fieldref [com/example/bottommenubar/d.a Lcom/example/bottommenubar/d;]
+      [16] getstatic #30
+        + Fieldref [com/example/bottommenubar/d.a Lcom/example/bottommenubar/d;]
+      [19] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [16] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/bottommenubar/e
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x601
+    = public interface com.example.bottommenubar.e extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 7):
+  + Class [com/example/bottommenubar/e]
+  + Class [java/lang/Object]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [b]
+  + Utf8 [com/example/bottommenubar/e]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  + Method:       b(I)Landroid/view/View;
+    Access flags: 0x401
+      = public abstract android.view.View b(int)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/bottommenubar/f
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x601
+    = public interface com.example.bottommenubar.f extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 7):
+  + Class [com/example/bottommenubar/f]
+  + Class [java/lang/Object]
+  + Utf8 [(I)V]
+  + Utf8 [a]
+  + Utf8 [com/example/bottommenubar/f]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  + Method:       a(I)V
+    Access flags: 0x401
+      = public abstract void a(int)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/bottommenubar/MainActivity
+  Superclass:    com/example/bottommenubar/a
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.bottommenubar.MainActivity extends com.example.bottommenubar.a
+
+Interfaces (count = 3):
+  + Class [android/view/View$OnClickListener]
+  + Class [com/example/bottommenubar/f]
+  + Class [com/example/charttopsetting/a]
+
+Constant Pool (count = 253):
+  + Integer [2130903040]
+  + Integer [2131230736]
+  + Integer [2131230759]
+  + Class [android/content/res/Resources]
+  + Class [android/graphics/drawable/BitmapDrawable]
+  + Class [android/view/LayoutInflater]
+  + Class [android/view/View]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/view/ViewGroup]
+  + Class [android/widget/Button]
+  + Class [android/widget/TextView]
+  + Class [com/example/bottommenubar/MainActivity]
+  + Class [com/example/bottommenubar/ViewContainer]
+  + Class [com/example/bottommenubar/a]
+  + Class [com/example/bottommenubar/b]
+  + Class [com/example/bottommenubar/f]
+  + Class [com/example/bottommenubar/g]
+  + Class [com/example/charttopsetting/TopTabBar]
+  + Class [com/example/charttopsetting/a]
+  + Class [com/example/charttopsetting/b]
+  + Class [com/example/charttopsetting/c]
+  + Class [java/lang/Integer]
+  + Class [java/util/HashMap]
+  + Class [java/util/Map]
+  + Fieldref [com/example/bottommenubar/MainActivity.b Lcom/example/bottommenubar/b;]
+  + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+  + Fieldref [com/example/bottommenubar/MainActivity.d Ljava/util/Map;]
+  + Fieldref [com/example/bottommenubar/MainActivity.e Ljava/util/Map;]
+  + Fieldref [com/example/bottommenubar/MainActivity.f Ljava/util/Map;]
+  + Fieldref [com/example/bottommenubar/MainActivity.g Lcom/example/charttopsetting/TopTabBar;]
+  + Fieldref [com/example/bottommenubar/MainActivity.h Lcom/example/charttopsetting/b;]
+  + Fieldref [com/example/bottommenubar/MainActivity.i I]
+  + Fieldref [com/example/bottommenubar/MainActivity.j I]
+  + Fieldref [com/example/bottommenubar/b.e Lcom/example/bottommenubar/ViewContainer;]
+  + Fieldref [com/example/charttopsetting/c.c I]
+  + Fieldref [com/example/charttopsetting/c.d I]
+  + Fieldref [com/example/charttopsetting/c.e I]
+  + Fieldref [com/example/charttopsetting/c.g [Landroid/widget/TextView;]
+  + Fieldref [com/example/charttopsetting/c.h [Landroid/widget/TextView;]
+  + Fieldref [com/example/charttopsetting/c.i [Landroid/widget/TextView;]
+  + Fieldref [com/example/charttopsetting/c.j [Landroid/widget/TextView;]
+  + Fieldref [com/example/charttopsetting/c.l [I]
+  + Fieldref [com/example/charttopsetting/c.m [I]
+  + Fieldref [com/example/charttopsetting/c.n [I]
+  + Fieldref [com/example/charttopsetting/c.o [I]
+  + Fieldref [com/example/charttopsetting/c.p [I]
+  + Fieldref [com/example/charttopsetting/c.q [I]
+  + Fieldref [com/example/charttopsetting/c.r [I]
+  + Methodref [android/content/res/Resources.getString (I)Ljava/lang/String;]
+  + Methodref [android/graphics/drawable/BitmapDrawable.<init> ()V]
+  + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;Z)Landroid/view/View;]
+  + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+  + Methodref [android/view/View.getHeight ()I]
+  + Methodref [android/view/View.getId ()I]
+  + Methodref [android/view/View.getWidth ()I]
+  + Methodref [android/view/View.setSelected (Z)V]
+  + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [android/widget/TextView.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [android/widget/TextView.setSelected (Z)V]
+  + Methodref [com/example/bottommenubar/MainActivity.a (ILandroid/view/View;)V]
+  + Methodref [com/example/bottommenubar/MainActivity.b (I)V]
+  + Methodref [com/example/bottommenubar/MainActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [com/example/bottommenubar/MainActivity.getLayoutInflater ()Landroid/view/LayoutInflater;]
+  + Methodref [com/example/bottommenubar/MainActivity.getResources ()Landroid/content/res/Resources;]
+  + Methodref [com/example/bottommenubar/MainActivity.setContentView (I)V]
+  + Methodref [com/example/bottommenubar/ViewContainer.getCurrentView ()Landroid/view/View;]
+  + Methodref [com/example/bottommenubar/a.<init> ()V]
+  + Methodref [com/example/bottommenubar/a.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [com/example/bottommenubar/b.<init> (Landroid/app/Activity;)V]
+  + Methodref [com/example/bottommenubar/b.a (Lcom/example/bottommenubar/f;)V]
+  + Methodref [com/example/bottommenubar/g.<init> (Lcom/example/bottommenubar/MainActivity;)V]
+  + Methodref [com/example/charttopsetting/TopTabBar.a (Ljava/lang/String;I)V]
+  + Methodref [com/example/charttopsetting/TopTabBar.getTopTabBarSetting ()Lcom/example/charttopsetting/c;]
+  + Methodref [com/example/charttopsetting/TopTabBar.setTopTabIndexFactory (Lcom/example/charttopsetting/a;)V]
+  + Methodref [com/example/charttopsetting/b.<init> (Landroid/view/View;II)V]
+  + Methodref [com/example/charttopsetting/b.dismiss ()V]
+  + Methodref [com/example/charttopsetting/b.setBackgroundDrawable (Landroid/graphics/drawable/Drawable;)V]
+  + Methodref [com/example/charttopsetting/b.setFocusable (Z)V]
+  + Methodref [com/example/charttopsetting/b.setHeight (I)V]
+  + Methodref [com/example/charttopsetting/b.setOutsideTouchable (Z)V]
+  + Methodref [com/example/charttopsetting/b.setWidth (I)V]
+  + Methodref [com/example/charttopsetting/b.showAsDropDown (Landroid/view/View;)V]
+  + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+  + Methodref [java/util/HashMap.<init> ()V]
+  + InterfaceMethodref [java/util/Map.containsKey (Ljava/lang/Object;)Z]
+  + InterfaceMethodref [java/util/Map.get (Ljava/lang/Object;)Ljava/lang/Object;]
+  + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/app/Activity;)V]
+  + NameAndType [<init> (Landroid/view/View;II)V]
+  + NameAndType [<init> (Lcom/example/bottommenubar/MainActivity;)V]
+  + NameAndType [a (ILandroid/view/View;)V]
+  + NameAndType [a (Lcom/example/bottommenubar/f;)V]
+  + NameAndType [a (Ljava/lang/String;I)V]
+  + NameAndType [b (I)V]
+  + NameAndType [b Lcom/example/bottommenubar/b;]
+  + NameAndType [c I]
+  + NameAndType [c Lcom/example/charttopsetting/c;]
+  + NameAndType [containsKey (Ljava/lang/Object;)Z]
+  + NameAndType [d I]
+  + NameAndType [d Ljava/util/Map;]
+  + NameAndType [dismiss ()V]
+  + NameAndType [e I]
+  + NameAndType [e Lcom/example/bottommenubar/ViewContainer;]
+  + NameAndType [e Ljava/util/Map;]
+  + NameAndType [f Ljava/util/Map;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [g Lcom/example/charttopsetting/TopTabBar;]
+  + NameAndType [g [Landroid/widget/TextView;]
+  + NameAndType [get (Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [getCurrentView ()Landroid/view/View;]
+  + NameAndType [getHeight ()I]
+  + NameAndType [getId ()I]
+  + NameAndType [getLayoutInflater ()Landroid/view/LayoutInflater;]
+  + NameAndType [getResources ()Landroid/content/res/Resources;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [getTopTabBarSetting ()Lcom/example/charttopsetting/c;]
+  + NameAndType [getWidth ()I]
+  + NameAndType [h Lcom/example/charttopsetting/b;]
+  + NameAndType [h [Landroid/widget/TextView;]
+  + NameAndType [i I]
+  + NameAndType [i [Landroid/widget/TextView;]
+  + NameAndType [inflate (ILandroid/view/ViewGroup;Z)Landroid/view/View;]
+  + NameAndType [j I]
+  + NameAndType [j [Landroid/widget/TextView;]
+  + NameAndType [l [I]
+  + NameAndType [m [I]
+  + NameAndType [n [I]
+  + NameAndType [o [I]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [p [I]
+  + NameAndType [put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [q [I]
+  + NameAndType [r [I]
+  + NameAndType [setBackgroundDrawable (Landroid/graphics/drawable/Drawable;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setFocusable (Z)V]
+  + NameAndType [setHeight (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [setOutsideTouchable (Z)V]
+  + NameAndType [setSelected (Z)V]
+  + NameAndType [setTopTabIndexFactory (Lcom/example/charttopsetting/a;)V]
+  + NameAndType [setWidth (I)V]
+  + NameAndType [showAsDropDown (Landroid/view/View;)V]
+  + NameAndType [valueOf (I)Ljava/lang/Integer;]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/content/res/Resources;]
+  + Utf8 [()Landroid/view/LayoutInflater;]
+  + Utf8 [()Landroid/view/View;]
+  + Utf8 [()Lcom/example/charttopsetting/c;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/Integer;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(I)V]
+  + Utf8 [(ILandroid/view/View;)V]
+  + Utf8 [(ILandroid/view/ViewGroup;Z)Landroid/view/View;]
+  + Utf8 [(Landroid/app/Activity;)V]
+  + Utf8 [(Landroid/graphics/drawable/Drawable;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Landroid/view/View;II)V]
+  + Utf8 [(Lcom/example/bottommenubar/MainActivity;)V]
+  + Utf8 [(Lcom/example/bottommenubar/f;)V]
+  + Utf8 [(Lcom/example/charttopsetting/a;)V]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/String;I)V]
+  + Utf8 [(Z)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Landroid/annotation/SuppressLint;]
+  + Utf8 [Lcom/example/bottommenubar/ViewContainer;]
+  + Utf8 [Lcom/example/bottommenubar/b;]
+  + Utf8 [Lcom/example/charttopsetting/TopTabBar;]
+  + Utf8 [Lcom/example/charttopsetting/b;]
+  + Utf8 [Lcom/example/charttopsetting/c;]
+  + Utf8 [Ljava/util/Map;]
+  + Utf8 [RuntimeInvisibleAnnotations]
+  + Utf8 [StackMapTable]
+  + Utf8 [UseSparseArrays]
+  + Utf8 [[I]
+  + Utf8 [[Landroid/widget/TextView;]
+  + Utf8 [a]
+  + Utf8 [android/content/res/Resources]
+  + Utf8 [android/graphics/drawable/BitmapDrawable]
+  + Utf8 [android/view/LayoutInflater]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/view/ViewGroup]
+  + Utf8 [android/widget/Button]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/example/bottommenubar/MainActivity]
+  + Utf8 [com/example/bottommenubar/ViewContainer]
+  + Utf8 [com/example/bottommenubar/a]
+  + Utf8 [com/example/bottommenubar/b]
+  + Utf8 [com/example/bottommenubar/f]
+  + Utf8 [com/example/bottommenubar/g]
+  + Utf8 [com/example/charttopsetting/TopTabBar]
+  + Utf8 [com/example/charttopsetting/a]
+  + Utf8 [com/example/charttopsetting/b]
+  + Utf8 [com/example/charttopsetting/c]
+  + Utf8 [containsKey]
+  + Utf8 [d]
+  + Utf8 [dismiss]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [findViewById]
+  + Utf8 [g]
+  + Utf8 [get]
+  + Utf8 [getCurrentView]
+  + Utf8 [getHeight]
+  + Utf8 [getId]
+  + Utf8 [getLayoutInflater]
+  + Utf8 [getResources]
+  + Utf8 [getString]
+  + Utf8 [getTopTabBarSetting]
+  + Utf8 [getWidth]
+  + Utf8 [h]
+  + Utf8 [i]
+  + Utf8 [inflate]
+  + Utf8 [j]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [java/util/HashMap]
+  + Utf8 [java/util/Map]
+  + Utf8 [l]
+  + Utf8 [m]
+  + Utf8 [n]
+  + Utf8 [o]
+  + Utf8 [onClick]
+  + Utf8 [onCreate]
+  + Utf8 [p]
+  + Utf8 [put]
+  + Utf8 [q]
+  + Utf8 [r]
+  + Utf8 [setBackgroundDrawable]
+  + Utf8 [setContentView]
+  + Utf8 [setFocusable]
+  + Utf8 [setHeight]
+  + Utf8 [setOnClickListener]
+  + Utf8 [setOutsideTouchable]
+  + Utf8 [setSelected]
+  + Utf8 [setTopTabIndexFactory]
+  + Utf8 [setWidth]
+  + Utf8 [showAsDropDown]
+  + Utf8 [value]
+  + Utf8 [valueOf]
+
+Fields (count = 9):
+  + Field:        b Lcom/example/bottommenubar/b;
+    Access flags: 0x0
+      = com.example.bottommenubar.b b
+  + Field:        d Ljava/util/Map;
+    Access flags: 0x2
+      = private java.util.Map d
+    Class member attributes (count = 1):
+    + Runtime invisible annotations attribute:
+      - Annotation [Landroid/annotation/SuppressLint;]:
+        - Array element value [value]:
+          + Constant element value [(default) '115']
+            + Utf8 [UseSparseArrays]
+  + Field:        e Ljava/util/Map;
+    Access flags: 0x2
+      = private java.util.Map e
+    Class member attributes (count = 1):
+    + Runtime invisible annotations attribute:
+      - Annotation [Landroid/annotation/SuppressLint;]:
+        - Array element value [value]:
+          + Constant element value [(default) '115']
+            + Utf8 [UseSparseArrays]
+  + Field:        f Ljava/util/Map;
+    Access flags: 0x2
+      = private java.util.Map f
+    Class member attributes (count = 1):
+    + Runtime invisible annotations attribute:
+      - Annotation [Landroid/annotation/SuppressLint;]:
+        - Array element value [value]:
+          + Constant element value [(default) '115']
+            + Utf8 [UseSparseArrays]
+  + Field:        g Lcom/example/charttopsetting/TopTabBar;
+    Access flags: 0x2
+      = private com.example.charttopsetting.TopTabBar g
+  + Field:        h Lcom/example/charttopsetting/b;
+    Access flags: 0x2
+      = private com.example.charttopsetting.b h
+  + Field:        c Lcom/example/charttopsetting/c;
+    Access flags: 0x0
+      = com.example.charttopsetting.c c
+  + Field:        i I
+    Access flags: 0x2
+      = private int i
+  + Field:        j I
+    Access flags: 0x2
+      = private int j
+
+Methods (count = 7):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MainActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 48, locals = 1, stack = 3):
+      [0] aload_0 v0
+      [1] invokespecial #67
+        + Methodref [com/example/bottommenubar/a.<init> ()V]
+      [4] aload_0 v0
+      [5] new #23
+        + Class [java/util/HashMap]
+      [8] dup
+      [9] invokespecial #84
+        + Methodref [java/util/HashMap.<init> ()V]
+      [12] putfield #27
+        + Fieldref [com/example/bottommenubar/MainActivity.d Ljava/util/Map;]
+      [15] aload_0 v0
+      [16] new #23
+        + Class [java/util/HashMap]
+      [19] dup
+      [20] invokespecial #84
+        + Methodref [java/util/HashMap.<init> ()V]
+      [23] putfield #28
+        + Fieldref [com/example/bottommenubar/MainActivity.e Ljava/util/Map;]
+      [26] aload_0 v0
+      [27] new #23
+        + Class [java/util/HashMap]
+      [30] dup
+      [31] invokespecial #84
+        + Methodref [java/util/HashMap.<init> ()V]
+      [34] putfield #29
+        + Fieldref [com/example/bottommenubar/MainActivity.f Ljava/util/Map;]
+      [37] aload_0 v0
+      [38] iconst_m1
+      [39] putfield #32
+        + Fieldref [com/example/bottommenubar/MainActivity.i I]
+      [42] aload_0 v0
+      [43] iconst_m1
+      [44] putfield #33
+        + Fieldref [com/example/bottommenubar/MainActivity.j I]
+      [47] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 32, locals = 2, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #68
+        + Methodref [com/example/bottommenubar/a.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903040]
+      [8] invokevirtual #65
+        + Methodref [com/example/bottommenubar/MainActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] new #15
+        + Class [com/example/bottommenubar/b]
+      [15] dup
+      [16] aload_0 v0
+      [17] invokespecial #69
+        + Methodref [com/example/bottommenubar/b.<init> (Landroid/app/Activity;)V]
+      [20] putfield #25
+        + Fieldref [com/example/bottommenubar/MainActivity.b Lcom/example/bottommenubar/b;]
+      [23] aload_0 v0
+      [24] getfield #25
+        + Fieldref [com/example/bottommenubar/MainActivity.b Lcom/example/bottommenubar/b;]
+      [27] aload_0 v0
+      [28] invokevirtual #70
+        + Methodref [com/example/bottommenubar/b.a (Lcom/example/bottommenubar/f;)V]
+      [31] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(I)V
+    Access flags: 0x1
+      = public void a(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 79, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #27
+        + Fieldref [com/example/bottommenubar/MainActivity.d Ljava/util/Map;]
+      [4] iload_1 v1
+      [5] invokestatic #83
+        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [8] invokeinterface #85
+        + InterfaceMethodref [java/util/Map.containsKey (Ljava/lang/Object;)Z]
+      [13] ifne +32 (target=45)
+      [16] aload_0 v0
+      [17] getfield #27
+        + Fieldref [com/example/bottommenubar/MainActivity.d Ljava/util/Map;]
+      [20] iload_1 v1
+      [21] invokestatic #83
+        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [24] aload_0 v0
+      [25] getfield #25
+        + Fieldref [com/example/bottommenubar/MainActivity.b Lcom/example/bottommenubar/b;]
+      [28] getfield #34
+        + Fieldref [com/example/bottommenubar/b.e Lcom/example/bottommenubar/ViewContainer;]
+      [31] invokevirtual #66
+        + Methodref [com/example/bottommenubar/ViewContainer.getCurrentView ()Landroid/view/View;]
+      [34] invokeinterface #87
+        + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [39] pop
+      [40] aload_0 v0
+      [41] iload_1 v1
+      [42] invokevirtual #61
+        + Methodref [com/example/bottommenubar/MainActivity.b (I)V]
+      [45] iload_1 v1
+      [46] iconst_1
+      [47] ificmpne +31 (target=78)
+      [50] aload_0 v0
+      [51] getfield #30
+        + Fieldref [com/example/bottommenubar/MainActivity.g Lcom/example/charttopsetting/TopTabBar;]
+      [54] ifnonnull +24 (target=78)
+      [57] aload_0 v0
+      [58] aload_0 v0
+      [59] ldc #2
+        + Integer [2131230736]
+      [61] invokevirtual #62
+        + Methodref [com/example/bottommenubar/MainActivity.findViewById (I)Landroid/view/View;]
+      [64] checkcast #18
+        + Class [com/example/charttopsetting/TopTabBar]
+      [67] putfield #30
+        + Fieldref [com/example/bottommenubar/MainActivity.g Lcom/example/charttopsetting/TopTabBar;]
+      [70] aload_0 v0
+      [71] getfield #30
+        + Fieldref [com/example/bottommenubar/MainActivity.g Lcom/example/charttopsetting/TopTabBar;]
+      [74] aload_0 v0
+      [75] invokevirtual #74
+        + Methodref [com/example/charttopsetting/TopTabBar.setTopTabIndexFactory (Lcom/example/charttopsetting/a;)V]
+      [78] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [45] Var: ..., Stack: (empty)
+        - [78] Var: ..., Stack: (empty)
+  + Method:       b(I)V
+    Access flags: 0x1
+      = public void b(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 58, locals = 3, stack = 4):
+      [0] iload_1 v1
+      [1] tableswitch (1 offsets, default=56) (target=57)
+        3: offset = 19, target = 20
+        default: offset = 56, target = 57
+      [20] aload_0 v0
+      [21] getfield #27
+        + Fieldref [com/example/bottommenubar/MainActivity.d Ljava/util/Map;]
+      [24] iload_1 v1
+      [25] invokestatic #83
+        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [28] invokeinterface #86
+        + InterfaceMethodref [java/util/Map.get (Ljava/lang/Object;)Ljava/lang/Object;]
+      [33] checkcast #7
+        + Class [android/view/View]
+      [36] ldc #3
+        + Integer [2131230759]
+      [38] invokevirtual #52
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [41] checkcast #10
+        + Class [android/widget/Button]
+      [44] astore_2 v2
+      [45] aload_2 v2
+      [46] new #17
+        + Class [com/example/bottommenubar/g]
+      [49] dup
+      [50] aload_0 v0
+      [51] invokespecial #71
+        + Methodref [com/example/bottommenubar/g.<init> (Lcom/example/bottommenubar/MainActivity;)V]
+      [54] invokevirtual #57
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [57] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [20] Var: ..., Stack: (empty)
+        - [57] Var: ..., Stack: (empty)
+  + Method:       c(I)V
+    Access flags: 0x1
+      = public void c(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 242, locals = 3, stack = 6):
+      [0] aload_0 v0
+      [1] iload_1 v1
+      [2] putfield #32
+        + Fieldref [com/example/bottommenubar/MainActivity.i I]
+      [5] aconst_null
+      [6] astore_2 v2
+      [7] aload_0 v0
+      [8] aload_0 v0
+      [9] getfield #30
+        + Fieldref [com/example/bottommenubar/MainActivity.g Lcom/example/charttopsetting/TopTabBar;]
+      [12] invokevirtual #73
+        + Methodref [com/example/charttopsetting/TopTabBar.getTopTabBarSetting ()Lcom/example/charttopsetting/c;]
+      [15] putfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [18] aload_0 v0
+      [19] getfield #28
+        + Fieldref [com/example/bottommenubar/MainActivity.e Ljava/util/Map;]
+      [22] iload_1 v1
+      [23] invokestatic #83
+        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [26] invokeinterface #85
+        + InterfaceMethodref [java/util/Map.containsKey (Ljava/lang/Object;)Z]
+      [31] ifne +48 (target=79)
+      [34] aload_0 v0
+      [35] invokevirtual #63
+        + Methodref [com/example/bottommenubar/MainActivity.getLayoutInflater ()Landroid/view/LayoutInflater;]
+      [38] aload_0 v0
+      [39] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [42] getfield #42
+        + Fieldref [com/example/charttopsetting/c.l [I]
+      [45] iload_1 v1
+      [46] iaload
+      [47] aload_0 v0
+      [48] ldc #2
+        + Integer [2131230736]
+      [50] invokevirtual #62
+        + Methodref [com/example/bottommenubar/MainActivity.findViewById (I)Landroid/view/View;]
+      [53] checkcast #9
+        + Class [android/view/ViewGroup]
+      [56] iconst_0
+      [57] invokevirtual #51
+        + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;Z)Landroid/view/View;]
+      [60] astore_2 v2
+      [61] aload_0 v0
+      [62] getfield #28
+        + Fieldref [com/example/bottommenubar/MainActivity.e Ljava/util/Map;]
+      [65] iload_1 v1
+      [66] invokestatic #83
+        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [69] aload_2 v2
+      [70] invokeinterface #87
+        + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [75] pop
+      [76] goto +20 (target=96)
+      [79] aload_0 v0
+      [80] getfield #28
+        + Fieldref [com/example/bottommenubar/MainActivity.e Ljava/util/Map;]
+      [83] iload_1 v1
+      [84] invokestatic #83
+        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [87] invokeinterface #86
+        + InterfaceMethodref [java/util/Map.get (Ljava/lang/Object;)Ljava/lang/Object;]
+      [92] checkcast #7
+        + Class [android/view/View]
+      [95] astore_2 v2
+      [96] aload_0 v0
+      [97] getfield #29
+        + Fieldref [com/example/bottommenubar/MainActivity.f Ljava/util/Map;]
+      [100] iload_1 v1
+      [101] invokestatic #83
+        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [104] invokeinterface #85
+        + InterfaceMethodref [java/util/Map.containsKey (Ljava/lang/Object;)Z]
+      [109] ifne +96 (target=205)
+      [112] aload_0 v0
+      [113] new #20
+        + Class [com/example/charttopsetting/b]
+      [116] dup
+      [117] aload_2 v2
+      [118] aload_2 v2
+      [119] invokevirtual #55
+        + Methodref [android/view/View.getWidth ()I]
+      [122] aload_2 v2
+      [123] invokevirtual #53
+        + Methodref [android/view/View.getHeight ()I]
+      [126] invokespecial #75
+        + Methodref [com/example/charttopsetting/b.<init> (Landroid/view/View;II)V]
+      [129] putfield #31
+        + Fieldref [com/example/bottommenubar/MainActivity.h Lcom/example/charttopsetting/b;]
+      [132] aload_0 v0
+      [133] getfield #31
+        + Fieldref [com/example/bottommenubar/MainActivity.h Lcom/example/charttopsetting/b;]
+      [136] bipush -2
+      [138] invokevirtual #79
+        + Methodref [com/example/charttopsetting/b.setHeight (I)V]
+      [141] aload_0 v0
+      [142] getfield #31
+        + Fieldref [com/example/bottommenubar/MainActivity.h Lcom/example/charttopsetting/b;]
+      [145] bipush -2
+      [147] invokevirtual #81
+        + Methodref [com/example/charttopsetting/b.setWidth (I)V]
+      [150] aload_0 v0
+      [151] getfield #31
+        + Fieldref [com/example/bottommenubar/MainActivity.h Lcom/example/charttopsetting/b;]
+      [154] iconst_1
+      [155] invokevirtual #78
+        + Methodref [com/example/charttopsetting/b.setFocusable (Z)V]
+      [158] aload_0 v0
+      [159] getfield #31
+        + Fieldref [com/example/bottommenubar/MainActivity.h Lcom/example/charttopsetting/b;]
+      [162] iconst_1
+      [163] invokevirtual #80
+        + Methodref [com/example/charttopsetting/b.setOutsideTouchable (Z)V]
+      [166] aload_0 v0
+      [167] getfield #31
+        + Fieldref [com/example/bottommenubar/MainActivity.h Lcom/example/charttopsetting/b;]
+      [170] new #5
+        + Class [android/graphics/drawable/BitmapDrawable]
+      [173] dup
+      [174] invokespecial #50
+        + Methodref [android/graphics/drawable/BitmapDrawable.<init> ()V]
+      [177] invokevirtual #77
+        + Methodref [com/example/charttopsetting/b.setBackgroundDrawable (Landroid/graphics/drawable/Drawable;)V]
+      [180] aload_0 v0
+      [181] getfield #31
+        + Fieldref [com/example/bottommenubar/MainActivity.h Lcom/example/charttopsetting/b;]
+      [184] aload_0 v0
+      [185] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [188] getfield #38
+        + Fieldref [com/example/charttopsetting/c.g [Landroid/widget/TextView;]
+      [191] iload_1 v1
+      [192] aaload
+      [193] invokevirtual #82
+        + Methodref [com/example/charttopsetting/b.showAsDropDown (Landroid/view/View;)V]
+      [196] aload_0 v0
+      [197] iload_1 v1
+      [198] aload_2 v2
+      [199] invokespecial #60
+        + Methodref [com/example/bottommenubar/MainActivity.a (ILandroid/view/View;)V]
+      [202] goto +39 (target=241)
+      [205] aload_0 v0
+      [206] aload_0 v0
+      [207] getfield #29
+        + Fieldref [com/example/bottommenubar/MainActivity.f Ljava/util/Map;]
+      [210] iload_1 v1
+      [211] invokestatic #83
+        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [214] invokeinterface #86
+        + InterfaceMethodref [java/util/Map.get (Ljava/lang/Object;)Ljava/lang/Object;]
+      [219] checkcast #20
+        + Class [com/example/charttopsetting/b]
+      [222] putfield #31
+        + Fieldref [com/example/bottommenubar/MainActivity.h Lcom/example/charttopsetting/b;]
+      [225] aload_0 v0
+      [226] getfield #31
+        + Fieldref [com/example/bottommenubar/MainActivity.h Lcom/example/charttopsetting/b;]
+      [229] aload_0 v0
+      [230] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [233] getfield #38
+        + Fieldref [com/example/charttopsetting/c.g [Landroid/widget/TextView;]
+      [236] iload_1 v1
+      [237] aaload
+      [238] invokevirtual #82
+        + Methodref [com/example/charttopsetting/b.showAsDropDown (Landroid/view/View;)V]
+      [241] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 4):
+        - [79] Var: ...[a:android/view/View], Stack: (empty)
+        - [96] Var: ..., Stack: (empty)
+        - [205] Var: ..., Stack: (empty)
+        - [241] Var: ..., Stack: (empty)
+  + Method:       a(ILandroid/view/View;)V
+    Access flags: 0x2
+      = private void a(int,android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 281, locals = 4, stack = 5):
+      [0] iload_1 v1
+      [1] tableswitch (3 offsets, default=261) (target=262)
+        0: offset = 27, target = 28
+        1: offset = 105, target = 106
+        2: offset = 183, target = 184
+        default: offset = 261, target = 262
+      [28] iconst_0
+      [29] istore_3 v3
+      [30] goto +62 (target=92)
+      [33] aload_0 v0
+      [34] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [37] getfield #41
+        + Fieldref [com/example/charttopsetting/c.j [Landroid/widget/TextView;]
+      [40] iload_3 v3
+      [41] aload_2 v2
+      [42] aload_0 v0
+      [43] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [46] getfield #45
+        + Fieldref [com/example/charttopsetting/c.o [I]
+      [49] iload_3 v3
+      [50] iaload
+      [51] invokevirtual #52
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [54] checkcast #11
+        + Class [android/widget/TextView]
+      [57] aastore
+      [58] aload_0 v0
+      [59] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [62] getfield #41
+        + Fieldref [com/example/charttopsetting/c.j [Landroid/widget/TextView;]
+      [65] iload_3 v3
+      [66] aaload
+      [67] aload_0 v0
+      [68] invokevirtual #58
+        + Methodref [android/widget/TextView.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [71] iload_3 v3
+      [72] iconst_4
+      [73] ificmpne +16 (target=89)
+      [76] aload_0 v0
+      [77] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [80] getfield #41
+        + Fieldref [com/example/charttopsetting/c.j [Landroid/widget/TextView;]
+      [83] iload_3 v3
+      [84] aaload
+      [85] iconst_1
+      [86] invokevirtual #59
+        + Methodref [android/widget/TextView.setSelected (Z)V]
+      [89] iinc v3, 1
+      [92] iload_3 v3
+      [93] aload_0 v0
+      [94] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [97] getfield #37
+        + Fieldref [com/example/charttopsetting/c.e I]
+      [100] ificmplt -67 (target=33)
+      [103] goto +159 (target=262)
+      [106] iconst_0
+      [107] istore_3 v3
+      [108] goto +62 (target=170)
+      [111] aload_0 v0
+      [112] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [115] getfield #39
+        + Fieldref [com/example/charttopsetting/c.h [Landroid/widget/TextView;]
+      [118] iload_3 v3
+      [119] aload_2 v2
+      [120] aload_0 v0
+      [121] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [124] getfield #43
+        + Fieldref [com/example/charttopsetting/c.m [I]
+      [127] iload_3 v3
+      [128] iaload
+      [129] invokevirtual #52
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [132] checkcast #11
+        + Class [android/widget/TextView]
+      [135] aastore
+      [136] aload_0 v0
+      [137] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [140] getfield #39
+        + Fieldref [com/example/charttopsetting/c.h [Landroid/widget/TextView;]
+      [143] iload_3 v3
+      [144] aaload
+      [145] aload_0 v0
+      [146] invokevirtual #58
+        + Methodref [android/widget/TextView.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [149] iload_3 v3
+      [150] iconst_2
+      [151] ificmpne +16 (target=167)
+      [154] aload_0 v0
+      [155] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [158] getfield #39
+        + Fieldref [com/example/charttopsetting/c.h [Landroid/widget/TextView;]
+      [161] iload_3 v3
+      [162] aaload
+      [163] iconst_1
+      [164] invokevirtual #59
+        + Methodref [android/widget/TextView.setSelected (Z)V]
+      [167] iinc v3, 1
+      [170] iload_3 v3
+      [171] aload_0 v0
+      [172] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [175] getfield #35
+        + Fieldref [com/example/charttopsetting/c.c I]
+      [178] ificmplt -67 (target=111)
+      [181] goto +81 (target=262)
+      [184] iconst_0
+      [185] istore_3 v3
+      [186] goto +62 (target=248)
+      [189] aload_0 v0
+      [190] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [193] getfield #40
+        + Fieldref [com/example/charttopsetting/c.i [Landroid/widget/TextView;]
+      [196] iload_3 v3
+      [197] aload_2 v2
+      [198] aload_0 v0
+      [199] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [202] getfield #44
+        + Fieldref [com/example/charttopsetting/c.n [I]
+      [205] iload_3 v3
+      [206] iaload
+      [207] invokevirtual #52
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [210] checkcast #11
+        + Class [android/widget/TextView]
+      [213] aastore
+      [214] aload_0 v0
+      [215] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [218] getfield #40
+        + Fieldref [com/example/charttopsetting/c.i [Landroid/widget/TextView;]
+      [221] iload_3 v3
+      [222] aaload
+      [223] aload_0 v0
+      [224] invokevirtual #58
+        + Methodref [android/widget/TextView.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [227] iload_3 v3
+      [228] iconst_2
+      [229] ificmpne +16 (target=245)
+      [232] aload_0 v0
+      [233] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [236] getfield #40
+        + Fieldref [com/example/charttopsetting/c.i [Landroid/widget/TextView;]
+      [239] iload_3 v3
+      [240] aaload
+      [241] iconst_1
+      [242] invokevirtual #59
+        + Methodref [android/widget/TextView.setSelected (Z)V]
+      [245] iinc v3, 1
+      [248] iload_3 v3
+      [249] aload_0 v0
+      [250] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [253] getfield #36
+        + Fieldref [com/example/charttopsetting/c.d I]
+      [256] ificmplt -67 (target=189)
+      [259] goto +3 (target=262)
+      [262] aload_0 v0
+      [263] getfield #29
+        + Fieldref [com/example/bottommenubar/MainActivity.f Ljava/util/Map;]
+      [266] iload_1 v1
+      [267] invokestatic #83
+        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [270] aload_0 v0
+      [271] getfield #31
+        + Fieldref [com/example/bottommenubar/MainActivity.h Lcom/example/charttopsetting/b;]
+      [274] invokeinterface #87
+        + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [279] pop
+      [280] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 13):
+        - [28] Var: ..., Stack: (empty)
+        - [33] Var: ...[i], Stack: (empty)
+        - [89] Var: ..., Stack: (empty)
+        - [92] Var: ..., Stack: (empty)
+        - [106] Var: -1, Stack: (empty)
+        - [111] Var: ...[i], Stack: (empty)
+        - [167] Var: ..., Stack: (empty)
+        - [170] Var: ..., Stack: (empty)
+        - [184] Var: -1, Stack: (empty)
+        - [189] Var: ...[i], Stack: (empty)
+        - [245] Var: ..., Stack: (empty)
+        - [248] Var: ..., Stack: (empty)
+        - [262] Var: -1, Stack: (empty)
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 335, locals = 3, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokevirtual #54
+        + Methodref [android/view/View.getId ()I]
+      [5] putfield #33
+        + Fieldref [com/example/bottommenubar/MainActivity.j I]
+      [8] aload_0 v0
+      [9] getfield #32
+        + Fieldref [com/example/bottommenubar/MainActivity.i I]
+      [12] tableswitch (3 offsets, default=310) (target=322)
+        0: offset = 28, target = 40
+        1: offset = 122, target = 134
+        2: offset = 216, target = 228
+        default: offset = 310, target = 322
+      [40] iconst_0
+      [41] istore_2 v2
+      [42] goto +78 (target=120)
+      [45] aload_0 v0
+      [46] getfield #33
+        + Fieldref [com/example/bottommenubar/MainActivity.j I]
+      [49] aload_0 v0
+      [50] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [53] getfield #45
+        + Fieldref [com/example/charttopsetting/c.o [I]
+      [56] iload_2 v2
+      [57] iaload
+      [58] ificmpne +46 (target=104)
+      [61] aload_0 v0
+      [62] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [65] getfield #41
+        + Fieldref [com/example/charttopsetting/c.j [Landroid/widget/TextView;]
+      [68] iload_2 v2
+      [69] aaload
+      [70] iconst_1
+      [71] invokevirtual #59
+        + Methodref [android/widget/TextView.setSelected (Z)V]
+      [74] aload_0 v0
+      [75] getfield #30
+        + Fieldref [com/example/bottommenubar/MainActivity.g Lcom/example/charttopsetting/TopTabBar;]
+      [78] aload_0 v0
+      [79] invokevirtual #64
+        + Methodref [com/example/bottommenubar/MainActivity.getResources ()Landroid/content/res/Resources;]
+      [82] aload_0 v0
+      [83] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [86] getfield #48
+        + Fieldref [com/example/charttopsetting/c.r [I]
+      [89] iload_2 v2
+      [90] iaload
+      [91] invokevirtual #49
+        + Methodref [android/content/res/Resources.getString (I)Ljava/lang/String;]
+      [94] aload_0 v0
+      [95] getfield #32
+        + Fieldref [com/example/bottommenubar/MainActivity.i I]
+      [98] invokevirtual #72
+        + Methodref [com/example/charttopsetting/TopTabBar.a (Ljava/lang/String;I)V]
+      [101] goto +16 (target=117)
+      [104] aload_0 v0
+      [105] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [108] getfield #41
+        + Fieldref [com/example/charttopsetting/c.j [Landroid/widget/TextView;]
+      [111] iload_2 v2
+      [112] aaload
+      [113] iconst_0
+      [114] invokevirtual #59
+        + Methodref [android/widget/TextView.setSelected (Z)V]
+      [117] iinc v2, 1
+      [120] iload_2 v2
+      [121] aload_0 v0
+      [122] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [125] getfield #37
+        + Fieldref [com/example/charttopsetting/c.e I]
+      [128] ificmplt -83 (target=45)
+      [131] goto +191 (target=322)
+      [134] iconst_0
+      [135] istore_2 v2
+      [136] goto +78 (target=214)
+      [139] aload_0 v0
+      [140] getfield #33
+        + Fieldref [com/example/bottommenubar/MainActivity.j I]
+      [143] aload_0 v0
+      [144] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [147] getfield #43
+        + Fieldref [com/example/charttopsetting/c.m [I]
+      [150] iload_2 v2
+      [151] iaload
+      [152] ificmpne +46 (target=198)
+      [155] aload_0 v0
+      [156] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [159] getfield #39
+        + Fieldref [com/example/charttopsetting/c.h [Landroid/widget/TextView;]
+      [162] iload_2 v2
+      [163] aaload
+      [164] iconst_1
+      [165] invokevirtual #59
+        + Methodref [android/widget/TextView.setSelected (Z)V]
+      [168] aload_0 v0
+      [169] getfield #30
+        + Fieldref [com/example/bottommenubar/MainActivity.g Lcom/example/charttopsetting/TopTabBar;]
+      [172] aload_0 v0
+      [173] invokevirtual #64
+        + Methodref [com/example/bottommenubar/MainActivity.getResources ()Landroid/content/res/Resources;]
+      [176] aload_0 v0
+      [177] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [180] getfield #46
+        + Fieldref [com/example/charttopsetting/c.p [I]
+      [183] iload_2 v2
+      [184] iaload
+      [185] invokevirtual #49
+        + Methodref [android/content/res/Resources.getString (I)Ljava/lang/String;]
+      [188] aload_0 v0
+      [189] getfield #32
+        + Fieldref [com/example/bottommenubar/MainActivity.i I]
+      [192] invokevirtual #72
+        + Methodref [com/example/charttopsetting/TopTabBar.a (Ljava/lang/String;I)V]
+      [195] goto +16 (target=211)
+      [198] aload_0 v0
+      [199] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [202] getfield #39
+        + Fieldref [com/example/charttopsetting/c.h [Landroid/widget/TextView;]
+      [205] iload_2 v2
+      [206] aaload
+      [207] iconst_0
+      [208] invokevirtual #59
+        + Methodref [android/widget/TextView.setSelected (Z)V]
+      [211] iinc v2, 1
+      [214] iload_2 v2
+      [215] aload_0 v0
+      [216] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [219] getfield #35
+        + Fieldref [com/example/charttopsetting/c.c I]
+      [222] ificmplt -83 (target=139)
+      [225] goto +97 (target=322)
+      [228] iconst_0
+      [229] istore_2 v2
+      [230] goto +78 (target=308)
+      [233] aload_0 v0
+      [234] getfield #33
+        + Fieldref [com/example/bottommenubar/MainActivity.j I]
+      [237] aload_0 v0
+      [238] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [241] getfield #44
+        + Fieldref [com/example/charttopsetting/c.n [I]
+      [244] iload_2 v2
+      [245] iaload
+      [246] ificmpne +46 (target=292)
+      [249] aload_0 v0
+      [250] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [253] getfield #40
+        + Fieldref [com/example/charttopsetting/c.i [Landroid/widget/TextView;]
+      [256] iload_2 v2
+      [257] aaload
+      [258] iconst_1
+      [259] invokevirtual #59
+        + Methodref [android/widget/TextView.setSelected (Z)V]
+      [262] aload_0 v0
+      [263] getfield #30
+        + Fieldref [com/example/bottommenubar/MainActivity.g Lcom/example/charttopsetting/TopTabBar;]
+      [266] aload_0 v0
+      [267] invokevirtual #64
+        + Methodref [com/example/bottommenubar/MainActivity.getResources ()Landroid/content/res/Resources;]
+      [270] aload_0 v0
+      [271] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [274] getfield #47
+        + Fieldref [com/example/charttopsetting/c.q [I]
+      [277] iload_2 v2
+      [278] iaload
+      [279] invokevirtual #49
+        + Methodref [android/content/res/Resources.getString (I)Ljava/lang/String;]
+      [282] aload_0 v0
+      [283] getfield #32
+        + Fieldref [com/example/bottommenubar/MainActivity.i I]
+      [286] invokevirtual #72
+        + Methodref [com/example/charttopsetting/TopTabBar.a (Ljava/lang/String;I)V]
+      [289] goto +16 (target=305)
+      [292] aload_0 v0
+      [293] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [296] getfield #40
+        + Fieldref [com/example/charttopsetting/c.i [Landroid/widget/TextView;]
+      [299] iload_2 v2
+      [300] aaload
+      [301] iconst_0
+      [302] invokevirtual #59
+        + Methodref [android/widget/TextView.setSelected (Z)V]
+      [305] iinc v2, 1
+      [308] iload_2 v2
+      [309] aload_0 v0
+      [310] getfield #26
+        + Fieldref [com/example/bottommenubar/MainActivity.c Lcom/example/charttopsetting/c;]
+      [313] getfield #36
+        + Fieldref [com/example/charttopsetting/c.d I]
+      [316] ificmplt -83 (target=233)
+      [319] goto +3 (target=322)
+      [322] aload_1 v1
+      [323] iconst_1
+      [324] invokevirtual #56
+        + Methodref [android/view/View.setSelected (Z)V]
+      [327] aload_0 v0
+      [328] getfield #31
+        + Fieldref [com/example/bottommenubar/MainActivity.h Lcom/example/charttopsetting/b;]
+      [331] invokevirtual #76
+        + Methodref [com/example/charttopsetting/b.dismiss ()V]
+      [334] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 16):
+        - [40] Var: ..., Stack: (empty)
+        - [45] Var: ...[i], Stack: (empty)
+        - [104] Var: ..., Stack: (empty)
+        - [117] Var: ..., Stack: (empty)
+        - [120] Var: ..., Stack: (empty)
+        - [134] Var: -1, Stack: (empty)
+        - [139] Var: ...[i], Stack: (empty)
+        - [198] Var: ..., Stack: (empty)
+        - [211] Var: ..., Stack: (empty)
+        - [214] Var: ..., Stack: (empty)
+        - [228] Var: -1, Stack: (empty)
+        - [233] Var: ...[i], Stack: (empty)
+        - [292] Var: ..., Stack: (empty)
+        - [305] Var: ..., Stack: (empty)
+        - [308] Var: ..., Stack: (empty)
+        - [322] Var: -1, Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/bottommenubar/g
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.example.bottommenubar.g extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 30):
+  + Class [android/view/View]
+  + Class [android/view/View$OnClickListener]
+  + Class [com/example/bottommenubar/g]
+  + Class [java/lang/Object]
+  + Fieldref [com/example/bottommenubar/g.a Lcom/example/bottommenubar/MainActivity;]
+  + Methodref [android/view/View.isSelected ()Z]
+  + Methodref [android/view/View.setSelected (Z)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lcom/example/bottommenubar/MainActivity;]
+  + NameAndType [isSelected ()Z]
+  + NameAndType [setSelected (Z)V]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/example/bottommenubar/MainActivity;)V]
+  + Utf8 [(Z)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/example/bottommenubar/MainActivity;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [com/example/bottommenubar/g]
+  + Utf8 [isSelected]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+  + Utf8 [setSelected]
+
+Fields (count = 1):
+  + Field:        a Lcom/example/bottommenubar/MainActivity;
+    Access flags: 0x1010
+      = final synthetic com.example.bottommenubar.MainActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/example/bottommenubar/MainActivity;)V
+    Access flags: 0x0
+      = g(com.example.bottommenubar.MainActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #5
+        + Fieldref [com/example/bottommenubar/g.a Lcom/example/bottommenubar/MainActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #8
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 21, locals = 2, stack = 2):
+      [0] aload_1 v1
+      [1] invokevirtual #6
+        + Methodref [android/view/View.isSelected ()Z]
+      [4] ifne +11 (target=15)
+      [7] aload_1 v1
+      [8] iconst_1
+      [9] invokevirtual #7
+        + Methodref [android/view/View.setSelected (Z)V]
+      [12] goto +8 (target=20)
+      [15] aload_1 v1
+      [16] iconst_0
+      [17] invokevirtual #7
+        + Methodref [android/view/View.setSelected (Z)V]
+      [20] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [15] Var: ..., Stack: (empty)
+        - [20] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/bottommenubar/ViewContainer
+  Superclass:    android/widget/FrameLayout
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.bottommenubar.ViewContainer extends android.widget.FrameLayout
+
+Interfaces (count = 0):
+
+Constant Pool (count = 111):
+  + Class [android/view/View]
+  + Class [android/widget/FrameLayout]
+  + Class [android/widget/FrameLayout$LayoutParams]
+  + Class [com/example/bottommenubar/ViewContainer]
+  + Class [com/example/bottommenubar/c]
+  + Class [com/example/bottommenubar/e]
+  + Class [java/lang/Integer]
+  + Class [java/util/HashMap]
+  + Class [java/util/Map]
+  + Fieldref [com/example/bottommenubar/ViewContainer.a Lcom/example/bottommenubar/e;]
+  + Fieldref [com/example/bottommenubar/ViewContainer.b Landroid/widget/FrameLayout$LayoutParams;]
+  + Fieldref [com/example/bottommenubar/ViewContainer.c Landroid/view/View;]
+  + Fieldref [com/example/bottommenubar/ViewContainer.d Landroid/view/View;]
+  + Fieldref [com/example/bottommenubar/ViewContainer.e Lcom/example/bottommenubar/c;]
+  + Fieldref [com/example/bottommenubar/ViewContainer.f Ljava/util/Map;]
+  + Fieldref [com/example/bottommenubar/ViewContainer.g I]
+  + Fieldref [com/example/bottommenubar/ViewContainer.h Landroid/content/Context;]
+  + Methodref [android/view/View.getTag ()Ljava/lang/Object;]
+  + Methodref [android/view/View.setVisibility (I)V]
+  + Methodref [android/widget/FrameLayout.<init> (Landroid/content/Context;)V]
+  + Methodref [android/widget/FrameLayout.<init> (Landroid/content/Context;Landroid/util/AttributeSet;)V]
+  + Methodref [android/widget/FrameLayout.<init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+  + Methodref [android/widget/FrameLayout$LayoutParams.<init> (II)V]
+  + Methodref [com/example/bottommenubar/ViewContainer.a ()V]
+  + Methodref [com/example/bottommenubar/ViewContainer.a (Landroid/content/Context;)V]
+  + Methodref [com/example/bottommenubar/ViewContainer.addView (Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V]
+  + Methodref [com/example/bottommenubar/c.b ()V]
+  + Methodref [com/example/bottommenubar/c.c ()V]
+  + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+  + Methodref [java/util/HashMap.<init> ()V]
+  + InterfaceMethodref [com/example/bottommenubar/e.b (I)Landroid/view/View;]
+  + InterfaceMethodref [java/util/Map.containsKey (Ljava/lang/Object;)Z]
+  + InterfaceMethodref [java/util/Map.get (Ljava/lang/Object;)Ljava/lang/Object;]
+  + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (II)V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [<init> (Landroid/content/Context;Landroid/util/AttributeSet;)V]
+  + NameAndType [<init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+  + NameAndType [a ()V]
+  + NameAndType [a (Landroid/content/Context;)V]
+  + NameAndType [a Lcom/example/bottommenubar/e;]
+  + NameAndType [addView (Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V]
+  + NameAndType [b ()V]
+  + NameAndType [b (I)Landroid/view/View;]
+  + NameAndType [b Landroid/widget/FrameLayout$LayoutParams;]
+  + NameAndType [c ()V]
+  + NameAndType [c Landroid/view/View;]
+  + NameAndType [containsKey (Ljava/lang/Object;)Z]
+  + NameAndType [d Landroid/view/View;]
+  + NameAndType [e Lcom/example/bottommenubar/c;]
+  + NameAndType [f Ljava/util/Map;]
+  + NameAndType [g I]
+  + NameAndType [get (Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [getTag ()Ljava/lang/Object;]
+  + NameAndType [h Landroid/content/Context;]
+  + NameAndType [put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [setVisibility (I)V]
+  + NameAndType [valueOf (I)Ljava/lang/Integer;]
+  + Utf8 [()Landroid/view/View;]
+  + Utf8 [()Ljava/lang/Object;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/Integer;]
+  + Utf8 [(I)V]
+  + Utf8 [(II)V]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;Landroid/util/AttributeSet;)V]
+  + Utf8 [(Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+  + Utf8 [(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V]
+  + Utf8 [(Lcom/example/bottommenubar/e;)V]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Landroid/content/Context;]
+  + Utf8 [Landroid/view/View;]
+  + Utf8 [Landroid/widget/FrameLayout$LayoutParams;]
+  + Utf8 [Lcom/example/bottommenubar/c;]
+  + Utf8 [Lcom/example/bottommenubar/e;]
+  + Utf8 [Ljava/util/Map;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [addView]
+  + Utf8 [android/view/View]
+  + Utf8 [android/widget/FrameLayout]
+  + Utf8 [android/widget/FrameLayout$LayoutParams]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/example/bottommenubar/ViewContainer]
+  + Utf8 [com/example/bottommenubar/c]
+  + Utf8 [com/example/bottommenubar/e]
+  + Utf8 [containsKey]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [g]
+  + Utf8 [get]
+  + Utf8 [getCurrentView]
+  + Utf8 [getTag]
+  + Utf8 [h]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [java/util/HashMap]
+  + Utf8 [java/util/Map]
+  + Utf8 [put]
+  + Utf8 [setViewFactory]
+  + Utf8 [setVisibility]
+  + Utf8 [valueOf]
+
+Fields (count = 8):
+  + Field:        a Lcom/example/bottommenubar/e;
+    Access flags: 0x0
+      = com.example.bottommenubar.e a
+  + Field:        c Landroid/view/View;
+    Access flags: 0x2
+      = private android.view.View c
+  + Field:        d Landroid/view/View;
+    Access flags: 0x2
+      = private android.view.View d
+  + Field:        e Lcom/example/bottommenubar/c;
+    Access flags: 0x2
+      = private com.example.bottommenubar.c e
+  + Field:        f Ljava/util/Map;
+    Access flags: 0x2
+      = private java.util.Map f
+  + Field:        g I
+    Access flags: 0x2
+      = private int g
+  + Field:        h Landroid/content/Context;
+    Access flags: 0x2
+      = private android.content.Context h
+  + Field:        b Landroid/widget/FrameLayout$LayoutParams;
+    Access flags: 0x0
+      = android.widget.FrameLayout$LayoutParams b
+
+Methods (count = 8):
+  - Method:       <init>(Landroid/content/Context;)V
+    Access flags: 0x1
+      = public ViewContainer(android.content.Context)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 44, locals = 2, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #20
+        + Methodref [android/widget/FrameLayout.<init> (Landroid/content/Context;)V]
+      [5] aload_0 v0
+      [6] aconst_null
+      [7] putfield #12
+        + Fieldref [com/example/bottommenubar/ViewContainer.c Landroid/view/View;]
+      [10] aload_0 v0
+      [11] aconst_null
+      [12] putfield #13
+        + Fieldref [com/example/bottommenubar/ViewContainer.d Landroid/view/View;]
+      [15] aload_0 v0
+      [16] aconst_null
+      [17] putfield #14
+        + Fieldref [com/example/bottommenubar/ViewContainer.e Lcom/example/bottommenubar/c;]
+      [20] aload_0 v0
+      [21] aconst_null
+      [22] putfield #15
+        + Fieldref [com/example/bottommenubar/ViewContainer.f Ljava/util/Map;]
+      [25] aload_0 v0
+      [26] new #3
+        + Class [android/widget/FrameLayout$LayoutParams]
+      [29] dup
+      [30] iconst_m1
+      [31] iconst_m1
+      [32] invokespecial #23
+        + Methodref [android/widget/FrameLayout$LayoutParams.<init> (II)V]
+      [35] putfield #11
+        + Fieldref [com/example/bottommenubar/ViewContainer.b Landroid/widget/FrameLayout$LayoutParams;]
+      [38] aload_0 v0
+      [39] aload_1 v1
+      [40] invokespecial #25
+        + Methodref [com/example/bottommenubar/ViewContainer.a (Landroid/content/Context;)V]
+      [43] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    Access flags: 0x1
+      = public ViewContainer(android.content.Context,android.util.AttributeSet)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 45, locals = 3, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] aload_2 v2
+      [3] invokespecial #21
+        + Methodref [android/widget/FrameLayout.<init> (Landroid/content/Context;Landroid/util/AttributeSet;)V]
+      [6] aload_0 v0
+      [7] aconst_null
+      [8] putfield #12
+        + Fieldref [com/example/bottommenubar/ViewContainer.c Landroid/view/View;]
+      [11] aload_0 v0
+      [12] aconst_null
+      [13] putfield #13
+        + Fieldref [com/example/bottommenubar/ViewContainer.d Landroid/view/View;]
+      [16] aload_0 v0
+      [17] aconst_null
+      [18] putfield #14
+        + Fieldref [com/example/bottommenubar/ViewContainer.e Lcom/example/bottommenubar/c;]
+      [21] aload_0 v0
+      [22] aconst_null
+      [23] putfield #15
+        + Fieldref [com/example/bottommenubar/ViewContainer.f Ljava/util/Map;]
+      [26] aload_0 v0
+      [27] new #3
+        + Class [android/widget/FrameLayout$LayoutParams]
+      [30] dup
+      [31] iconst_m1
+      [32] iconst_m1
+      [33] invokespecial #23
+        + Methodref [android/widget/FrameLayout$LayoutParams.<init> (II)V]
+      [36] putfield #11
+        + Fieldref [com/example/bottommenubar/ViewContainer.b Landroid/widget/FrameLayout$LayoutParams;]
+      [39] aload_0 v0
+      [40] aload_1 v1
+      [41] invokespecial #25
+        + Methodref [com/example/bottommenubar/ViewContainer.a (Landroid/content/Context;)V]
+      [44] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    Access flags: 0x1
+      = public ViewContainer(android.content.Context,android.util.AttributeSet,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 46, locals = 4, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] aload_2 v2
+      [3] iload_3 v3
+      [4] invokespecial #22
+        + Methodref [android/widget/FrameLayout.<init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+      [7] aload_0 v0
+      [8] aconst_null
+      [9] putfield #12
+        + Fieldref [com/example/bottommenubar/ViewContainer.c Landroid/view/View;]
+      [12] aload_0 v0
+      [13] aconst_null
+      [14] putfield #13
+        + Fieldref [com/example/bottommenubar/ViewContainer.d Landroid/view/View;]
+      [17] aload_0 v0
+      [18] aconst_null
+      [19] putfield #14
+        + Fieldref [com/example/bottommenubar/ViewContainer.e Lcom/example/bottommenubar/c;]
+      [22] aload_0 v0
+      [23] aconst_null
+      [24] putfield #15
+        + Fieldref [com/example/bottommenubar/ViewContainer.f Ljava/util/Map;]
+      [27] aload_0 v0
+      [28] new #3
+        + Class [android/widget/FrameLayout$LayoutParams]
+      [31] dup
+      [32] iconst_m1
+      [33] iconst_m1
+      [34] invokespecial #23
+        + Methodref [android/widget/FrameLayout$LayoutParams.<init> (II)V]
+      [37] putfield #11
+        + Fieldref [com/example/bottommenubar/ViewContainer.b Landroid/widget/FrameLayout$LayoutParams;]
+      [40] aload_0 v0
+      [41] aload_1 v1
+      [42] invokespecial #25
+        + Methodref [com/example/bottommenubar/ViewContainer.a (Landroid/content/Context;)V]
+      [45] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Landroid/content/Context;)V
+    Access flags: 0x2
+      = private void a(android.content.Context)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 22, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] new #8
+        + Class [java/util/HashMap]
+      [4] dup
+      [5] invokespecial #30
+        + Methodref [java/util/HashMap.<init> ()V]
+      [8] putfield #15
+        + Fieldref [com/example/bottommenubar/ViewContainer.f Ljava/util/Map;]
+      [11] aload_0 v0
+      [12] iconst_m1
+      [13] putfield #16
+        + Fieldref [com/example/bottommenubar/ViewContainer.g I]
+      [16] aload_0 v0
+      [17] aload_1 v1
+      [18] putfield #17
+        + Fieldref [com/example/bottommenubar/ViewContainer.h Landroid/content/Context;]
+      [21] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       setViewFactory(Lcom/example/bottommenubar/e;)V
+    Access flags: 0x1
+      = public void setViewFactory(com.example.bottommenubar.e)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #10
+        + Fieldref [com/example/bottommenubar/ViewContainer.a Lcom/example/bottommenubar/e;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getCurrentView()Landroid/view/View;
+    Access flags: 0x1
+      = public android.view.View getCurrentView()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #13
+        + Fieldref [com/example/bottommenubar/ViewContainer.d Landroid/view/View;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(I)V
+    Access flags: 0x1
+      = public void a(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 99, locals = 2, stack = 3):
+      [0] iload_1 v1
+      [1] aload_0 v0
+      [2] getfield #16
+        + Fieldref [com/example/bottommenubar/ViewContainer.g I]
+      [5] ificmpne +4 (target=9)
+      [8] return
+      [9] aload_0 v0
+      [10] getfield #15
+        + Fieldref [com/example/bottommenubar/ViewContainer.f Ljava/util/Map;]
+      [13] iload_1 v1
+      [14] invokestatic #29
+        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [17] invokeinterface #32
+        + InterfaceMethodref [java/util/Map.containsKey (Ljava/lang/Object;)Z]
+      [22] ifeq +28 (target=50)
+      [25] aload_0 v0
+      [26] aload_0 v0
+      [27] getfield #15
+        + Fieldref [com/example/bottommenubar/ViewContainer.f Ljava/util/Map;]
+      [30] iload_1 v1
+      [31] invokestatic #29
+        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [34] invokeinterface #33
+        + InterfaceMethodref [java/util/Map.get (Ljava/lang/Object;)Ljava/lang/Object;]
+      [39] checkcast #1
+        + Class [android/view/View]
+      [42] putfield #12
+        + Fieldref [com/example/bottommenubar/ViewContainer.c Landroid/view/View;]
+      [45] aload_0 v0
+      [46] invokespecial #24
+        + Methodref [com/example/bottommenubar/ViewContainer.a ()V]
+      [49] return
+      [50] aload_0 v0
+      [51] aload_0 v0
+      [52] getfield #10
+        + Fieldref [com/example/bottommenubar/ViewContainer.a Lcom/example/bottommenubar/e;]
+      [55] iload_1 v1
+      [56] invokeinterface #31
+        + InterfaceMethodref [com/example/bottommenubar/e.b (I)Landroid/view/View;]
+      [61] putfield #12
+        + Fieldref [com/example/bottommenubar/ViewContainer.c Landroid/view/View;]
+      [64] aload_0 v0
+      [65] getfield #15
+        + Fieldref [com/example/bottommenubar/ViewContainer.f Ljava/util/Map;]
+      [68] iload_1 v1
+      [69] invokestatic #29
+        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [72] aload_0 v0
+      [73] getfield #12
+        + Fieldref [com/example/bottommenubar/ViewContainer.c Landroid/view/View;]
+      [76] invokeinterface #34
+        + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [81] pop
+      [82] aload_0 v0
+      [83] aload_0 v0
+      [84] getfield #12
+        + Fieldref [com/example/bottommenubar/ViewContainer.c Landroid/view/View;]
+      [87] aload_0 v0
+      [88] getfield #11
+        + Fieldref [com/example/bottommenubar/ViewContainer.b Landroid/widget/FrameLayout$LayoutParams;]
+      [91] invokevirtual #26
+        + Methodref [com/example/bottommenubar/ViewContainer.addView (Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V]
+      [94] aload_0 v0
+      [95] invokespecial #24
+        + Methodref [com/example/bottommenubar/ViewContainer.a ()V]
+      [98] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [9] Var: ..., Stack: (empty)
+        - [50] Var: ..., Stack: (empty)
+  + Method:       a()V
+    Access flags: 0x2
+      = private void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 75, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #13
+        + Fieldref [com/example/bottommenubar/ViewContainer.d Landroid/view/View;]
+      [4] ifnull +33 (target=37)
+      [7] aload_0 v0
+      [8] aload_0 v0
+      [9] getfield #13
+        + Fieldref [com/example/bottommenubar/ViewContainer.d Landroid/view/View;]
+      [12] invokevirtual #18
+        + Methodref [android/view/View.getTag ()Ljava/lang/Object;]
+      [15] checkcast #5
+        + Class [com/example/bottommenubar/c]
+      [18] putfield #14
+        + Fieldref [com/example/bottommenubar/ViewContainer.e Lcom/example/bottommenubar/c;]
+      [21] aload_0 v0
+      [22] getfield #13
+        + Fieldref [com/example/bottommenubar/ViewContainer.d Landroid/view/View;]
+      [25] bipush 8
+      [27] invokevirtual #19
+        + Methodref [android/view/View.setVisibility (I)V]
+      [30] aload_0 v0
+      [31] getfield #14
+        + Fieldref [com/example/bottommenubar/ViewContainer.e Lcom/example/bottommenubar/c;]
+      [34] invokevirtual #28
+        + Methodref [com/example/bottommenubar/c.c ()V]
+      [37] aload_0 v0
+      [38] aload_0 v0
+      [39] getfield #12
+        + Fieldref [com/example/bottommenubar/ViewContainer.c Landroid/view/View;]
+      [42] invokevirtual #18
+        + Methodref [android/view/View.getTag ()Ljava/lang/Object;]
+      [45] checkcast #5
+        + Class [com/example/bottommenubar/c]
+      [48] putfield #14
+        + Fieldref [com/example/bottommenubar/ViewContainer.e Lcom/example/bottommenubar/c;]
+      [51] aload_0 v0
+      [52] getfield #12
+        + Fieldref [com/example/bottommenubar/ViewContainer.c Landroid/view/View;]
+      [55] iconst_0
+      [56] invokevirtual #19
+        + Methodref [android/view/View.setVisibility (I)V]
+      [59] aload_0 v0
+      [60] getfield #14
+        + Fieldref [com/example/bottommenubar/ViewContainer.e Lcom/example/bottommenubar/c;]
+      [63] invokevirtual #27
+        + Methodref [com/example/bottommenubar/c.b ()V]
+      [66] aload_0 v0
+      [67] aload_0 v0
+      [68] getfield #12
+        + Fieldref [com/example/bottommenubar/ViewContainer.c Landroid/view/View;]
+      [71] putfield #13
+        + Fieldref [com/example/bottommenubar/ViewContainer.d Landroid/view/View;]
+      [74] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [37] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/charttopsetting/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x601
+    = public interface com.example.charttopsetting.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 7):
+  + Class [com/example/charttopsetting/a]
+  + Class [java/lang/Object]
+  + Utf8 [(I)V]
+  + Utf8 [c]
+  + Utf8 [com/example/charttopsetting/a]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  + Method:       c(I)V
+    Access flags: 0x401
+      = public abstract void c(int)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/charttopsetting/b
+  Superclass:    android/widget/PopupWindow
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.charttopsetting.b extends android.widget.PopupWindow
+
+Interfaces (count = 0):
+
+Constant Pool (count = 10):
+  + Class [android/widget/PopupWindow]
+  + Class [com/example/charttopsetting/b]
+  + Methodref [android/widget/PopupWindow.<init> (Landroid/view/View;II)V]
+  + NameAndType [<init> (Landroid/view/View;II)V]
+  + Utf8 [(Landroid/view/View;II)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [android/widget/PopupWindow]
+  + Utf8 [com/example/charttopsetting/b]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  - Method:       <init>(Landroid/view/View;II)V
+    Access flags: 0x1
+      = public b(android.view.View,int,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 8, locals = 4, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] iload_2 v2
+      [3] iload_3 v3
+      [4] invokespecial #3
+        + Methodref [android/widget/PopupWindow.<init> (Landroid/view/View;II)V]
+      [7] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/charttopsetting/TopTabBar
+  Superclass:    android/widget/LinearLayout
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.charttopsetting.TopTabBar extends android.widget.LinearLayout
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 133):
+  + Integer [-2147483648]
+  + Integer [1073741824]
+  + Integer [2130903048]
+  + Integer [2131230772]
+  + Integer [2131230773]
+  + Integer [2131230774]
+  + Class [android/app/Activity]
+  + Class [android/view/LayoutInflater]
+  + Class [android/view/View]
+  + Class [android/view/View$MeasureSpec]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/LinearLayout]
+  + Class [android/widget/LinearLayout$LayoutParams]
+  + Class [android/widget/TextView]
+  + Class [com/example/charttopsetting/TopTabBar]
+  + Class [com/example/charttopsetting/a]
+  + Class [com/example/charttopsetting/c]
+  + Class [java/lang/Math]
+  + Fieldref [com/example/charttopsetting/TopTabBar.a Landroid/app/Activity;]
+  + Fieldref [com/example/charttopsetting/TopTabBar.b I]
+  + Fieldref [com/example/charttopsetting/TopTabBar.c Lcom/example/charttopsetting/c;]
+  + Fieldref [com/example/charttopsetting/TopTabBar.d Lcom/example/charttopsetting/a;]
+  + Fieldref [com/example/charttopsetting/TopTabBar.e Landroid/view/View;]
+  + Fieldref [com/example/charttopsetting/c.b I]
+  + Fieldref [com/example/charttopsetting/c.g [Landroid/widget/TextView;]
+  + Fieldref [com/example/charttopsetting/c.k [I]
+  + Methodref [android/view/LayoutInflater.from (Landroid/content/Context;)Landroid/view/LayoutInflater;]
+  + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+  + Methodref [android/view/View.getId ()I]
+  + Methodref [android/view/View$MeasureSpec.getMode (I)I]
+  + Methodref [android/view/View$MeasureSpec.getSize (I)I]
+  + Methodref [android/widget/LinearLayout.<init> (Landroid/content/Context;Landroid/util/AttributeSet;)V]
+  + Methodref [android/widget/LinearLayout.onMeasure (II)V]
+  + Methodref [android/widget/LinearLayout$LayoutParams.<init> (II)V]
+  + Methodref [android/widget/TextView.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [com/example/charttopsetting/TopTabBar.a ()V]
+  + Methodref [com/example/charttopsetting/TopTabBar.a (I)I]
+  + Methodref [com/example/charttopsetting/TopTabBar.addView (Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V]
+  + Methodref [com/example/charttopsetting/TopTabBar.b (I)I]
+  + Methodref [com/example/charttopsetting/TopTabBar.setMeasuredDimension (II)V]
+  + Methodref [com/example/charttopsetting/c.a ()Lcom/example/charttopsetting/c;]
+  + Methodref [java/lang/Math.min (II)I]
+  + InterfaceMethodref [com/example/charttopsetting/a.c (I)V]
+  + NameAndType [<init> (II)V]
+  + NameAndType [<init> (Landroid/content/Context;Landroid/util/AttributeSet;)V]
+  + NameAndType [a ()Lcom/example/charttopsetting/c;]
+  + NameAndType [a ()V]
+  + NameAndType [a (I)I]
+  + NameAndType [a Landroid/app/Activity;]
+  + NameAndType [addView (Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V]
+  + NameAndType [b (I)I]
+  + NameAndType [b I]
+  + NameAndType [c (I)V]
+  + NameAndType [c Lcom/example/charttopsetting/c;]
+  + NameAndType [d Lcom/example/charttopsetting/a;]
+  + NameAndType [e Landroid/view/View;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [from (Landroid/content/Context;)Landroid/view/LayoutInflater;]
+  + NameAndType [g [Landroid/widget/TextView;]
+  + NameAndType [getId ()I]
+  + NameAndType [getMode (I)I]
+  + NameAndType [getSize (I)I]
+  + NameAndType [inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + NameAndType [k [I]
+  + NameAndType [min (II)I]
+  + NameAndType [onMeasure (II)V]
+  + NameAndType [setMeasuredDimension (II)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + Utf8 [()I]
+  + Utf8 [()Lcom/example/charttopsetting/c;]
+  + Utf8 [()V]
+  + Utf8 [(I)I]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(II)I]
+  + Utf8 [(II)V]
+  + Utf8 [(ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + Utf8 [(Landroid/content/Context;)Landroid/view/LayoutInflater;]
+  + Utf8 [(Landroid/content/Context;Landroid/util/AttributeSet;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V]
+  + Utf8 [(Lcom/example/charttopsetting/a;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/String;I)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Landroid/app/Activity;]
+  + Utf8 [Landroid/view/View;]
+  + Utf8 [Lcom/example/charttopsetting/a;]
+  + Utf8 [Lcom/example/charttopsetting/c;]
+  + Utf8 [StackMapTable]
+  + Utf8 [[I]
+  + Utf8 [[Landroid/widget/TextView;]
+  + Utf8 [a]
+  + Utf8 [addView]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/view/LayoutInflater]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/View$MeasureSpec]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/LinearLayout]
+  + Utf8 [android/widget/LinearLayout$LayoutParams]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/example/charttopsetting/TopTabBar]
+  + Utf8 [com/example/charttopsetting/a]
+  + Utf8 [com/example/charttopsetting/c]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [findViewById]
+  + Utf8 [from]
+  + Utf8 [g]
+  + Utf8 [getId]
+  + Utf8 [getMode]
+  + Utf8 [getSize]
+  + Utf8 [getTopTabBarSetting]
+  + Utf8 [inflate]
+  + Utf8 [java/lang/Math]
+  + Utf8 [k]
+  + Utf8 [min]
+  + Utf8 [onClick]
+  + Utf8 [onMeasure]
+  + Utf8 [setMeasuredDimension]
+  + Utf8 [setOnClickListener]
+  + Utf8 [setText]
+  + Utf8 [setTopTabIndexFactory]
+
+Fields (count = 5):
+  + Field:        a Landroid/app/Activity;
+    Access flags: 0x0
+      = android.app.Activity a
+  + Field:        b I
+    Access flags: 0x0
+      = int b
+  + Field:        c Lcom/example/charttopsetting/c;
+    Access flags: 0x0
+      = com.example.charttopsetting.c c
+  + Field:        d Lcom/example/charttopsetting/a;
+    Access flags: 0x0
+      = com.example.charttopsetting.a d
+  + Field:        e Landroid/view/View;
+    Access flags: 0x0
+      = android.view.View e
+
+Methods (count = 9):
+  - Method:       <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    Access flags: 0x1
+      = public TopTabBar(android.content.Context,android.util.AttributeSet)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 24, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] aload_2 v2
+      [3] invokespecial #33
+        + Methodref [android/widget/LinearLayout.<init> (Landroid/content/Context;Landroid/util/AttributeSet;)V]
+      [6] aload_0 v0
+      [7] iconst_m1
+      [8] putfield #20
+        + Fieldref [com/example/charttopsetting/TopTabBar.b I]
+      [11] aload_0 v0
+      [12] aload_1 v1
+      [13] checkcast #7
+        + Class [android/app/Activity]
+      [16] putfield #19
+        + Fieldref [com/example/charttopsetting/TopTabBar.a Landroid/app/Activity;]
+      [19] aload_0 v0
+      [20] invokespecial #38
+        + Methodref [com/example/charttopsetting/TopTabBar.a ()V]
+      [23] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()V
+    Access flags: 0x2
+      = private void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 105, locals = 3, stack = 6):
+      [0] aload_0 v0
+      [1] getfield #19
+        + Fieldref [com/example/charttopsetting/TopTabBar.a Landroid/app/Activity;]
+      [4] invokestatic #27
+        + Methodref [android/view/LayoutInflater.from (Landroid/content/Context;)Landroid/view/LayoutInflater;]
+      [7] astore_1 v1
+      [8] aload_0 v0
+      [9] aload_1 v1
+      [10] ldc #3
+        + Integer [2130903048]
+      [12] aconst_null
+      [13] invokevirtual #28
+        + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+      [16] putfield #23
+        + Fieldref [com/example/charttopsetting/TopTabBar.e Landroid/view/View;]
+      [19] aload_0 v0
+      [20] aload_0 v0
+      [21] getfield #23
+        + Fieldref [com/example/charttopsetting/TopTabBar.e Landroid/view/View;]
+      [24] new #13
+        + Class [android/widget/LinearLayout$LayoutParams]
+      [27] dup
+      [28] iconst_m1
+      [29] bipush -2
+      [31] invokespecial #35
+        + Methodref [android/widget/LinearLayout$LayoutParams.<init> (II)V]
+      [34] invokevirtual #40
+        + Methodref [com/example/charttopsetting/TopTabBar.addView (Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V]
+      [37] aload_0 v0
+      [38] invokestatic #43
+        + Methodref [com/example/charttopsetting/c.a ()Lcom/example/charttopsetting/c;]
+      [41] putfield #21
+        + Fieldref [com/example/charttopsetting/TopTabBar.c Lcom/example/charttopsetting/c;]
+      [44] iconst_0
+      [45] istore_2 v2
+      [46] goto +47 (target=93)
+      [49] aload_0 v0
+      [50] getfield #21
+        + Fieldref [com/example/charttopsetting/TopTabBar.c Lcom/example/charttopsetting/c;]
+      [53] getfield #25
+        + Fieldref [com/example/charttopsetting/c.g [Landroid/widget/TextView;]
+      [56] iload_2 v2
+      [57] aload_0 v0
+      [58] getfield #23
+        + Fieldref [com/example/charttopsetting/TopTabBar.e Landroid/view/View;]
+      [61] aload_0 v0
+      [62] getfield #21
+        + Fieldref [com/example/charttopsetting/TopTabBar.c Lcom/example/charttopsetting/c;]
+      [65] getfield #26
+        + Fieldref [com/example/charttopsetting/c.k [I]
+      [68] iload_2 v2
+      [69] iaload
+      [70] invokevirtual #29
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [73] checkcast #14
+        + Class [android/widget/TextView]
+      [76] aastore
+      [77] aload_0 v0
+      [78] getfield #21
+        + Fieldref [com/example/charttopsetting/TopTabBar.c Lcom/example/charttopsetting/c;]
+      [81] getfield #25
+        + Fieldref [com/example/charttopsetting/c.g [Landroid/widget/TextView;]
+      [84] iload_2 v2
+      [85] aaload
+      [86] aload_0 v0
+      [87] invokevirtual #36
+        + Methodref [android/widget/TextView.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [90] iinc v2, 1
+      [93] iload_2 v2
+      [94] aload_0 v0
+      [95] getfield #21
+        + Fieldref [com/example/charttopsetting/TopTabBar.c Lcom/example/charttopsetting/c;]
+      [98] getfield #24
+        + Fieldref [com/example/charttopsetting/c.b I]
+      [101] ificmplt -52 (target=49)
+      [104] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [49] Var: ...[a:android/view/LayoutInflater][i], Stack: (empty)
+        - [93] Var: ..., Stack: (empty)
+  + Method:       setTopTabIndexFactory(Lcom/example/charttopsetting/a;)V
+    Access flags: 0x1
+      = public void setTopTabIndexFactory(com.example.charttopsetting.a)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #22
+        + Fieldref [com/example/charttopsetting/TopTabBar.d Lcom/example/charttopsetting/a;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getTopTabBarSetting()Lcom/example/charttopsetting/c;
+    Access flags: 0x1
+      = public com.example.charttopsetting.c getTopTabBarSetting()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #21
+        + Fieldref [com/example/charttopsetting/TopTabBar.c Lcom/example/charttopsetting/c;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/lang/String;I)V
+    Access flags: 0x1
+      = public void a(java.lang.String,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 92, locals = 4, stack = 2):
+      [0] iload_2 v2
+      [1] tableswitch (3 offsets, default=90) (target=91)
+        0: offset = 27, target = 28
+        1: offset = 48, target = 49
+        2: offset = 69, target = 70
+        default: offset = 90, target = 91
+      [28] aload_0 v0
+      [29] getfield #23
+        + Fieldref [com/example/charttopsetting/TopTabBar.e Landroid/view/View;]
+      [32] ldc #4
+        + Integer [2131230772]
+      [34] invokevirtual #29
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [37] checkcast #14
+        + Class [android/widget/TextView]
+      [40] astore_3 v3
+      [41] aload_3 v3
+      [42] aload_1 v1
+      [43] invokevirtual #37
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [46] goto +45 (target=91)
+      [49] aload_0 v0
+      [50] getfield #23
+        + Fieldref [com/example/charttopsetting/TopTabBar.e Landroid/view/View;]
+      [53] ldc #5
+        + Integer [2131230773]
+      [55] invokevirtual #29
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [58] checkcast #14
+        + Class [android/widget/TextView]
+      [61] astore_3 v3
+      [62] aload_3 v3
+      [63] aload_1 v1
+      [64] invokevirtual #37
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [67] goto +24 (target=91)
+      [70] aload_0 v0
+      [71] getfield #23
+        + Fieldref [com/example/charttopsetting/TopTabBar.e Landroid/view/View;]
+      [74] ldc #6
+        + Integer [2131230774]
+      [76] invokevirtual #29
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [79] checkcast #14
+        + Class [android/widget/TextView]
+      [82] astore_3 v3
+      [83] aload_3 v3
+      [84] aload_1 v1
+      [85] invokevirtual #37
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [88] goto +3 (target=91)
+      [91] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 4):
+        - [28] Var: ..., Stack: (empty)
+        - [49] Var: ..., Stack: (empty)
+        - [70] Var: ..., Stack: (empty)
+        - [91] Var: ..., Stack: (empty)
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 46, locals = 3, stack = 3):
+      [0] iconst_0
+      [1] istore_2 v2
+      [2] goto +32 (target=34)
+      [5] aload_1 v1
+      [6] invokevirtual #30
+        + Methodref [android/view/View.getId ()I]
+      [9] aload_0 v0
+      [10] getfield #21
+        + Fieldref [com/example/charttopsetting/TopTabBar.c Lcom/example/charttopsetting/c;]
+      [13] getfield #26
+        + Fieldref [com/example/charttopsetting/c.k [I]
+      [16] iload_2 v2
+      [17] iaload
+      [18] ificmpne +13 (target=31)
+      [21] aload_0 v0
+      [22] getfield #22
+        + Fieldref [com/example/charttopsetting/TopTabBar.d Lcom/example/charttopsetting/a;]
+      [25] iload_2 v2
+      [26] invokeinterface #45
+        + InterfaceMethodref [com/example/charttopsetting/a.c (I)V]
+      [31] iinc v2, 1
+      [34] iload_2 v2
+      [35] aload_0 v0
+      [36] getfield #21
+        + Fieldref [com/example/charttopsetting/TopTabBar.c Lcom/example/charttopsetting/c;]
+      [39] getfield #24
+        + Fieldref [com/example/charttopsetting/c.b I]
+      [42] ificmplt -37 (target=5)
+      [45] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [5] Var: ...[i], Stack: (empty)
+        - [31] Var: ..., Stack: (empty)
+        - [34] Var: ..., Stack: (empty)
+  + Method:       onMeasure(II)V
+    Access flags: 0x4
+      = protected void onMeasure(int,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 21, locals = 3, stack = 4):
+      [0] aload_0 v0
+      [1] iload_1 v1
+      [2] iload_2 v2
+      [3] invokespecial #34
+        + Methodref [android/widget/LinearLayout.onMeasure (II)V]
+      [6] aload_0 v0
+      [7] aload_0 v0
+      [8] iload_1 v1
+      [9] invokespecial #39
+        + Methodref [com/example/charttopsetting/TopTabBar.a (I)I]
+      [12] aload_0 v0
+      [13] iload_2 v2
+      [14] invokespecial #41
+        + Methodref [com/example/charttopsetting/TopTabBar.b (I)I]
+      [17] invokevirtual #42
+        + Methodref [com/example/charttopsetting/TopTabBar.setMeasuredDimension (II)V]
+      [20] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(I)I
+    Access flags: 0x2
+      = private int a(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 40, locals = 5, stack = 2):
+      [0] iconst_0
+      [1] istore_2 v2
+      [2] iload_1 v1
+      [3] invokestatic #31
+        + Methodref [android/view/View$MeasureSpec.getMode (I)I]
+      [6] istore_3 v3
+      [7] iload_1 v1
+      [8] invokestatic #32
+        + Methodref [android/view/View$MeasureSpec.getSize (I)I]
+      [11] istore v4
+      [13] iload_3 v3
+      [14] ldc #2
+        + Integer [1073741824]
+      [16] ificmpne +9 (target=25)
+      [19] iload v4
+      [21] istore_2 v2
+      [22] goto +16 (target=38)
+      [25] iload_3 v3
+      [26] ldc #1
+        + Integer [-2147483648]
+      [28] ificmpne +10 (target=38)
+      [31] iload_2 v2
+      [32] iload v4
+      [34] invokestatic #44
+        + Methodref [java/lang/Math.min (II)I]
+      [37] istore_2 v2
+      [38] iload_2 v2
+      [39] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [25] Var: ...[i][i][i], Stack: (empty)
+        - [38] Var: ..., Stack: (empty)
+  + Method:       b(I)I
+    Access flags: 0x2
+      = private int b(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 40, locals = 5, stack = 2):
+      [0] iconst_0
+      [1] istore_2 v2
+      [2] iload_1 v1
+      [3] invokestatic #31
+        + Methodref [android/view/View$MeasureSpec.getMode (I)I]
+      [6] istore_3 v3
+      [7] iload_1 v1
+      [8] invokestatic #32
+        + Methodref [android/view/View$MeasureSpec.getSize (I)I]
+      [11] istore v4
+      [13] iload_3 v3
+      [14] ldc #2
+        + Integer [1073741824]
+      [16] ificmpne +9 (target=25)
+      [19] iload v4
+      [21] istore_2 v2
+      [22] goto +16 (target=38)
+      [25] iload_3 v3
+      [26] ldc #1
+        + Integer [-2147483648]
+      [28] ificmpne +10 (target=38)
+      [31] iload_2 v2
+      [32] iload v4
+      [34] invokestatic #44
+        + Methodref [java/lang/Math.min (II)I]
+      [37] istore_2 v2
+      [38] iload_2 v2
+      [39] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [25] Var: ...[i][i][i], Stack: (empty)
+        - [38] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/charttopsetting/c
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.charttopsetting.c extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 115):
+  + Integer [2130903046]
+  + Integer [2130903047]
+  + Integer [2130903049]
+  + Integer [2131099669]
+  + Integer [2131099670]
+  + Integer [2131099671]
+  + Integer [2131099672]
+  + Integer [2131099673]
+  + Integer [2131099675]
+  + Integer [2131099677]
+  + Integer [2131099678]
+  + Integer [2131099680]
+  + Integer [2131099681]
+  + Integer [2131099682]
+  + Integer [2131099683]
+  + Integer [2131099684]
+  + Integer [2131099687]
+  + Integer [2131099688]
+  + Integer [2131099689]
+  + Integer [2131099690]
+  + Integer [2131099691]
+  + Integer [2131230766]
+  + Integer [2131230767]
+  + Integer [2131230768]
+  + Integer [2131230770]
+  + Integer [2131230771]
+  + Integer [2131230772]
+  + Integer [2131230773]
+  + Integer [2131230774]
+  + Integer [2131230776]
+  + Integer [2131230777]
+  + Integer [2131230778]
+  + Integer [2131230779]
+  + Integer [2131230780]
+  + Integer [2131230781]
+  + Integer [2131230782]
+  + Integer [2131230783]
+  + Integer [2131230784]
+  + Integer [2131230785]
+  + Integer [2131230786]
+  + Integer [2131230787]
+  + Integer [2131230788]
+  + Class [android/widget/TextView]
+  + Class [com/example/charttopsetting/c]
+  + Class [java/lang/Object]
+  + Fieldref [com/example/charttopsetting/c.a Lcom/example/charttopsetting/c;]
+  + Fieldref [com/example/charttopsetting/c.b I]
+  + Fieldref [com/example/charttopsetting/c.c I]
+  + Fieldref [com/example/charttopsetting/c.d I]
+  + Fieldref [com/example/charttopsetting/c.e I]
+  + Fieldref [com/example/charttopsetting/c.f [Landroid/widget/TextView;]
+  + Fieldref [com/example/charttopsetting/c.g [Landroid/widget/TextView;]
+  + Fieldref [com/example/charttopsetting/c.h [Landroid/widget/TextView;]
+  + Fieldref [com/example/charttopsetting/c.i [Landroid/widget/TextView;]
+  + Fieldref [com/example/charttopsetting/c.j [Landroid/widget/TextView;]
+  + Fieldref [com/example/charttopsetting/c.k [I]
+  + Fieldref [com/example/charttopsetting/c.l [I]
+  + Fieldref [com/example/charttopsetting/c.m [I]
+  + Fieldref [com/example/charttopsetting/c.n [I]
+  + Fieldref [com/example/charttopsetting/c.o [I]
+  + Fieldref [com/example/charttopsetting/c.p [I]
+  + Fieldref [com/example/charttopsetting/c.q [I]
+  + Fieldref [com/example/charttopsetting/c.r [I]
+  + Methodref [com/example/charttopsetting/c.<init> ()V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lcom/example/charttopsetting/c;]
+  + NameAndType [b I]
+  + NameAndType [c I]
+  + NameAndType [d I]
+  + NameAndType [e I]
+  + NameAndType [f [Landroid/widget/TextView;]
+  + NameAndType [g [Landroid/widget/TextView;]
+  + NameAndType [h [Landroid/widget/TextView;]
+  + NameAndType [i [Landroid/widget/TextView;]
+  + NameAndType [j [Landroid/widget/TextView;]
+  + NameAndType [k [I]
+  + NameAndType [l [I]
+  + NameAndType [m [I]
+  + NameAndType [n [I]
+  + NameAndType [o [I]
+  + NameAndType [p [I]
+  + NameAndType [q [I]
+  + NameAndType [r [I]
+  + Utf8 [()Lcom/example/charttopsetting/c;]
+  + Utf8 [()V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Lcom/example/charttopsetting/c;]
+  + Utf8 [StackMapTable]
+  + Utf8 [[I]
+  + Utf8 [[Landroid/widget/TextView;]
+  + Utf8 [a]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/example/charttopsetting/c]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [g]
+  + Utf8 [h]
+  + Utf8 [i]
+  + Utf8 [j]
+  + Utf8 [java/lang/Object]
+  + Utf8 [k]
+  + Utf8 [l]
+  + Utf8 [m]
+  + Utf8 [n]
+  + Utf8 [o]
+  + Utf8 [p]
+  + Utf8 [q]
+  + Utf8 [r]
+
+Fields (count = 18):
+  + Field:        a Lcom/example/charttopsetting/c;
+    Access flags: 0x9
+      = public static com.example.charttopsetting.c a
+  + Field:        b I
+    Access flags: 0x1
+      = public int b
+  + Field:        c I
+    Access flags: 0x1
+      = public int c
+  + Field:        d I
+    Access flags: 0x1
+      = public int d
+  + Field:        e I
+    Access flags: 0x1
+      = public int e
+  + Field:        f [Landroid/widget/TextView;
+    Access flags: 0x1
+      = public android.widget.TextView[] f
+  + Field:        g [Landroid/widget/TextView;
+    Access flags: 0x1
+      = public android.widget.TextView[] g
+  + Field:        h [Landroid/widget/TextView;
+    Access flags: 0x1
+      = public android.widget.TextView[] h
+  + Field:        i [Landroid/widget/TextView;
+    Access flags: 0x1
+      = public android.widget.TextView[] i
+  + Field:        j [Landroid/widget/TextView;
+    Access flags: 0x1
+      = public android.widget.TextView[] j
+  + Field:        k [I
+    Access flags: 0x1
+      = public int[] k
+  + Field:        l [I
+    Access flags: 0x1
+      = public int[] l
+  + Field:        m [I
+    Access flags: 0x1
+      = public int[] m
+  + Field:        n [I
+    Access flags: 0x1
+      = public int[] n
+  + Field:        o [I
+    Access flags: 0x1
+      = public int[] o
+  + Field:        p [I
+    Access flags: 0x1
+      = public int[] p
+  + Field:        q [I
+    Access flags: 0x1
+      = public int[] q
+  + Field:        r [I
+    Access flags: 0x1
+      = public int[] r
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public c()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 373, locals = 1, stack = 5):
+      [0] aload_0 v0
+      [1] invokespecial #65
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] iconst_3
+      [6] putfield #47
+        + Fieldref [com/example/charttopsetting/c.b I]
+      [9] aload_0 v0
+      [10] iconst_3
+      [11] putfield #48
+        + Fieldref [com/example/charttopsetting/c.c I]
+      [14] aload_0 v0
+      [15] iconst_3
+      [16] putfield #49
+        + Fieldref [com/example/charttopsetting/c.d I]
+      [19] aload_0 v0
+      [20] bipush 13
+      [22] putfield #50
+        + Fieldref [com/example/charttopsetting/c.e I]
+      [25] aload_0 v0
+      [26] aload_0 v0
+      [27] getfield #47
+        + Fieldref [com/example/charttopsetting/c.b I]
+      [30] anewarray #43
+        + Class [android/widget/TextView]
+      [33] putfield #51
+        + Fieldref [com/example/charttopsetting/c.f [Landroid/widget/TextView;]
+      [36] aload_0 v0
+      [37] aload_0 v0
+      [38] getfield #47
+        + Fieldref [com/example/charttopsetting/c.b I]
+      [41] anewarray #43
+        + Class [android/widget/TextView]
+      [44] putfield #52
+        + Fieldref [com/example/charttopsetting/c.g [Landroid/widget/TextView;]
+      [47] aload_0 v0
+      [48] aload_0 v0
+      [49] getfield #48
+        + Fieldref [com/example/charttopsetting/c.c I]
+      [52] anewarray #43
+        + Class [android/widget/TextView]
+      [55] putfield #53
+        + Fieldref [com/example/charttopsetting/c.h [Landroid/widget/TextView;]
+      [58] aload_0 v0
+      [59] aload_0 v0
+      [60] getfield #49
+        + Fieldref [com/example/charttopsetting/c.d I]
+      [63] anewarray #43
+        + Class [android/widget/TextView]
+      [66] putfield #54
+        + Fieldref [com/example/charttopsetting/c.i [Landroid/widget/TextView;]
+      [69] aload_0 v0
+      [70] aload_0 v0
+      [71] getfield #50
+        + Fieldref [com/example/charttopsetting/c.e I]
+      [74] anewarray #43
+        + Class [android/widget/TextView]
+      [77] putfield #55
+        + Fieldref [com/example/charttopsetting/c.j [Landroid/widget/TextView;]
+      [80] aload_0 v0
+      [81] iconst_3
+      [82] newarray 10
+      [84] dup
+      [85] iconst_0
+      [86] ldc #27
+        + Integer [2131230772]
+      [88] iastore
+      [89] dup
+      [90] iconst_1
+      [91] ldc #28
+        + Integer [2131230773]
+      [93] iastore
+      [94] dup
+      [95] iconst_2
+      [96] ldc #29
+        + Integer [2131230774]
+      [98] iastore
+      [99] putfield #56
+        + Fieldref [com/example/charttopsetting/c.k [I]
+      [102] aload_0 v0
+      [103] iconst_3
+      [104] newarray 10
+      [106] dup
+      [107] iconst_0
+      [108] ldc #3
+        + Integer [2130903049]
+      [110] iastore
+      [111] dup
+      [112] iconst_1
+      [113] ldc #1
+        + Integer [2130903046]
+      [115] iastore
+      [116] dup
+      [117] iconst_2
+      [118] ldc #2
+        + Integer [2130903047]
+      [120] iastore
+      [121] putfield #57
+        + Fieldref [com/example/charttopsetting/c.l [I]
+      [124] aload_0 v0
+      [125] iconst_3
+      [126] newarray 10
+      [128] dup
+      [129] iconst_0
+      [130] ldc #22
+        + Integer [2131230766]
+      [132] iastore
+      [133] dup
+      [134] iconst_1
+      [135] ldc #23
+        + Integer [2131230767]
+      [137] iastore
+      [138] dup
+      [139] iconst_2
+      [140] ldc #24
+        + Integer [2131230768]
+      [142] iastore
+      [143] putfield #58
+        + Fieldref [com/example/charttopsetting/c.m [I]
+      [146] aload_0 v0
+      [147] iconst_3
+      [148] newarray 10
+      [150] dup
+      [151] iconst_0
+      [152] ldc #25
+        + Integer [2131230770]
+      [154] iastore
+      [155] dup
+      [156] iconst_1
+      [157] ldc #26
+        + Integer [2131230771]
+      [159] iastore
+      [160] dup
+      [161] iconst_2
+      [162] ldc #24
+        + Integer [2131230768]
+      [164] iastore
+      [165] putfield #59
+        + Fieldref [com/example/charttopsetting/c.n [I]
+      [168] aload_0 v0
+      [169] bipush 13
+      [171] newarray 10
+      [173] dup
+      [174] iconst_0
+      [175] ldc #30
+        + Integer [2131230776]
+      [177] iastore
+      [178] dup
+      [179] iconst_1
+      [180] ldc #31
+        + Integer [2131230777]
+      [182] iastore
+      [183] dup
+      [184] iconst_2
+      [185] ldc #32
+        + Integer [2131230778]
+      [187] iastore
+      [188] dup
+      [189] iconst_3
+      [190] ldc #33
+        + Integer [2131230779]
+      [192] iastore
+      [193] dup
+      [194] iconst_4
+      [195] ldc #34
+        + Integer [2131230780]
+      [197] iastore
+      [198] dup
+      [199] iconst_5
+      [200] ldc #35
+        + Integer [2131230781]
+      [202] iastore
+      [203] dup
+      [204] bipush 6
+      [206] ldc #36
+        + Integer [2131230782]
+      [208] iastore
+      [209] dup
+      [210] bipush 7
+      [212] ldc #37
+        + Integer [2131230783]
+      [214] iastore
+      [215] dup
+      [216] bipush 8
+      [218] ldc #38
+        + Integer [2131230784]
+      [220] iastore
+      [221] dup
+      [222] bipush 9
+      [224] ldc #39
+        + Integer [2131230785]
+      [226] iastore
+      [227] dup
+      [228] bipush 10
+      [230] ldc #40
+        + Integer [2131230786]
+      [232] iastore
+      [233] dup
+      [234] bipush 11
+      [236] ldc #41
+        + Integer [2131230787]
+      [238] iastore
+      [239] dup
+      [240] bipush 12
+      [242] ldc #42
+        + Integer [2131230788]
+      [244] iastore
+      [245] putfield #60
+        + Fieldref [com/example/charttopsetting/c.o [I]
+      [248] aload_0 v0
+      [249] iconst_3
+      [250] newarray 10
+      [252] dup
+      [253] iconst_0
+      [254] ldc #6
+        + Integer [2131099671]
+      [256] iastore
+      [257] dup
+      [258] iconst_1
+      [259] ldc #7
+        + Integer [2131099672]
+      [261] iastore
+      [262] dup
+      [263] iconst_2
+      [264] ldc #8
+        + Integer [2131099673]
+      [266] iastore
+      [267] putfield #61
+        + Fieldref [com/example/charttopsetting/c.p [I]
+      [270] aload_0 v0
+      [271] iconst_3
+      [272] newarray 10
+      [274] dup
+      [275] iconst_0
+      [276] ldc #4
+        + Integer [2131099669]
+      [278] iastore
+      [279] dup
+      [280] iconst_1
+      [281] ldc #5
+        + Integer [2131099670]
+      [283] iastore
+      [284] dup
+      [285] iconst_2
+      [286] ldc #8
+        + Integer [2131099673]
+      [288] iastore
+      [289] putfield #62
+        + Fieldref [com/example/charttopsetting/c.q [I]
+      [292] aload_0 v0
+      [293] bipush 13
+      [295] newarray 10
+      [297] dup
+      [298] iconst_0
+      [299] ldc #11
+        + Integer [2131099678]
+      [301] iastore
+      [302] dup
+      [303] iconst_1
+      [304] ldc #17
+        + Integer [2131099687]
+      [306] iastore
+      [307] dup
+      [308] iconst_2
+      [309] ldc #19
+        + Integer [2131099689]
+      [311] iastore
+      [312] dup
+      [313] iconst_3
+      [314] ldc #21
+        + Integer [2131099691]
+      [316] iastore
+      [317] dup
+      [318] iconst_4
+      [319] ldc #18
+        + Integer [2131099688]
+      [321] iastore
+      [322] dup
+      [323] iconst_5
+      [324] ldc #20
+        + Integer [2131099690]
+      [326] iastore
+      [327] dup
+      [328] bipush 6
+      [330] ldc #12
+        + Integer [2131099680]
+      [332] iastore
+      [333] dup
+      [334] bipush 7
+      [336] ldc #14
+        + Integer [2131099682]
+      [338] iastore
+      [339] dup
+      [340] bipush 8
+      [342] ldc #15
+        + Integer [2131099683]
+      [344] iastore
+      [345] dup
+      [346] bipush 9
+      [348] ldc #16
+        + Integer [2131099684]
+      [350] iastore
+      [351] dup
+      [352] bipush 10
+      [354] ldc #13
+        + Integer [2131099681]
+      [356] iastore
+      [357] dup
+      [358] bipush 11
+      [360] ldc #9
+        + Integer [2131099675]
+      [362] iastore
+      [363] dup
+      [364] bipush 12
+      [366] ldc #10
+        + Integer [2131099677]
+      [368] iastore
+      [369] putfield #63
+        + Fieldref [com/example/charttopsetting/c.r [I]
+      [372] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()Lcom/example/charttopsetting/c;
+    Access flags: 0x9
+      = public static com.example.charttopsetting.c a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 20, locals = 0, stack = 2):
+      [0] getstatic #46
+        + Fieldref [com/example/charttopsetting/c.a Lcom/example/charttopsetting/c;]
+      [3] ifnonnull +13 (target=16)
+      [6] new #44
+        + Class [com/example/charttopsetting/c]
+      [9] dup
+      [10] invokespecial #64
+        + Methodref [com/example/charttopsetting/c.<init> ()V]
+      [13] putstatic #46
+        + Fieldref [com/example/charttopsetting/c.a Lcom/example/charttopsetting/c;]
+      [16] getstatic #46
+        + Fieldref [com/example/charttopsetting/c.a Lcom/example/charttopsetting/c;]
+      [19] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [16] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+

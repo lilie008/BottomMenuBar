@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Fill">
+
+    <LinearLayout
+        android:id="@id/buttombar"
+        style="@style/HFill"
+        android:layout_alignParentBottom="true">
+        <include layout="@layout/view_bottombar" />
+    </LinearLayout>
+    
+    <widget.bottommenubar.ViewContainer
+        android:id="@id/main_view_container"
+        style="@style/Fill"
+        android:layout_above="@id/buttombar"/>
+
+</RelativeLayout>

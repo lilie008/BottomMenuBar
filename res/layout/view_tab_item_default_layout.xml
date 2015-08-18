@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/HFill" >
+    <TextView android:id="@id/tablayoutitem_text" style="@style/TradeInnerBarButtonDefault"/>
+
+</LinearLayout>

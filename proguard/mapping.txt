@@ -1,0 +1,116 @@
+com.example.bottommenubar.BaseActivity -> com.example.bottommenubar.a:
+    java.lang.String TAG -> a
+    java.util.ArrayList mActivityList -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+    void goBack(android.view.View) -> goBack
+    void goNext(android.view.View) -> goNext
+    void showShortToast(java.lang.String) -> a
+com.example.bottommenubar.BottomTabBar -> com.example.bottommenubar.b:
+    android.app.Activity mContext -> a
+    int mCurrentFocus -> b
+    int lastIndex -> c
+    com.example.bottommenubar.BottomTabSetting item -> d
+    com.example.bottommenubar.ViewContainer viewContainer -> e
+    com.example.bottommenubar.BottomTabLayoutItem newView -> f
+    com.example.bottommenubar.IBottomTabIndexFactory mbuttonIndexFactory -> g
+    void initTab() -> a
+    void setButtonIndexFactory(com.example.bottommenubar.IBottomTabIndexFactory) -> a
+    void switchViewTab(int) -> a
+    void setViewTab(int) -> c
+    void onClick(android.view.View) -> onClick
+    android.view.View createView(int) -> b
+com.example.bottommenubar.BottomTabLayoutItem -> com.example.bottommenubar.c:
+    android.app.Activity mContext -> a
+    com.example.bottommenubar.BottomTabBar mTab -> b
+    android.view.View view -> c
+    android.view.View getView() -> a
+    void OnViewShow() -> b
+    void OnViewHide() -> c
+com.example.bottommenubar.BottomTabSetting -> com.example.bottommenubar.d:
+    com.example.bottommenubar.BottomTabSetting instance -> a
+    int viewNum -> b
+    android.widget.ImageView[] images -> c
+    android.widget.TextView[] texts -> d
+    android.widget.LinearLayout[] linears -> e
+    int[] images_id -> f
+    int[] texts_id -> g
+    int[] linears_id -> h
+    int[] images_selected -> i
+    int[] images_unselected -> j
+    int[] layouts_id -> k
+    com.example.bottommenubar.BottomTabSetting getInstance() -> a
+com.example.bottommenubar.IBottomTabFactory -> com.example.bottommenubar.e:
+    android.view.View createView(int) -> b
+com.example.bottommenubar.IBottomTabIndexFactory -> com.example.bottommenubar.f:
+    void getBottomTabIndex(int) -> a
+com.example.bottommenubar.MainActivity -> com.example.bottommenubar.MainActivity:
+    com.example.bottommenubar.BottomTabBar tabbar -> b
+    java.util.Map viewMap -> d
+    java.util.Map charSettingViewMap -> e
+    java.util.Map popupWindowMap -> f
+    com.example.charttopsetting.TopTabBar charSettingView -> g
+    com.example.charttopsetting.TopSettingPopupWindow mTopBarPopupWindow -> h
+    com.example.charttopsetting.TopTabBarSetting mTopTabBarSetting -> c
+    int CurrentChartIndex -> i
+    int CurrentItemId -> j
+    void onCreate(android.os.Bundle) -> onCreate
+    void getBottomTabIndex(int) -> a
+    void setListener(int) -> b
+    void getChartSettingIndex(int) -> c
+    void setTopBarPopupWindowLinstener(int,android.view.View) -> a
+    void onClick(android.view.View) -> onClick
+com.example.bottommenubar.MainActivity$1 -> com.example.bottommenubar.g:
+    com.example.bottommenubar.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.example.bottommenubar.ViewContainer -> com.example.bottommenubar.ViewContainer:
+    com.example.bottommenubar.IBottomTabFactory mViewFactory -> a
+    android.view.View tempView -> c
+    android.view.View currentView -> d
+    com.example.bottommenubar.BottomTabLayoutItem bottomTabItemView -> e
+    java.util.Map viewMap -> f
+    int cuIndex -> g
+    android.content.Context mContext -> h
+    android.widget.FrameLayout$LayoutParams newLayout -> b
+    void init(android.content.Context) -> a
+    void setViewFactory(com.example.bottommenubar.IBottomTabFactory) -> setViewFactory
+    android.view.View getCurrentView() -> getCurrentView
+    void flipToView(int) -> a
+    void setViewState() -> a
+com.example.charttopsetting.ITopTabIndexFactory -> com.example.charttopsetting.a:
+    void getChartSettingIndex(int) -> c
+com.example.charttopsetting.TopSettingPopupWindow -> com.example.charttopsetting.b:
+com.example.charttopsetting.TopTabBar -> com.example.charttopsetting.TopTabBar:
+    android.app.Activity mContext -> a
+    int mCurrentIndex -> b
+    com.example.charttopsetting.TopTabBarSetting mTopTabBarSetting -> c
+    com.example.charttopsetting.ITopTabIndexFactory mTopTabIndexFactory -> d
+    android.view.View topTabBarView -> e
+    void initTab() -> a
+    void setTopTabIndexFactory(com.example.charttopsetting.ITopTabIndexFactory) -> setTopTabIndexFactory
+    com.example.charttopsetting.TopTabBarSetting getTopTabBarSetting() -> getTopTabBarSetting
+    void setTopTabBarView(java.lang.String,int) -> a
+    void onClick(android.view.View) -> onClick
+    void onMeasure(int,int) -> onMeasure
+    int measureWidth(int) -> a
+    int measureHeight(int) -> b
+com.example.charttopsetting.TopTabBarSetting -> com.example.charttopsetting.c:
+    com.example.charttopsetting.TopTabBarSetting instance -> a
+    int TopTabBarNum -> b
+    int TopTabBar_Ma_Num -> c
+    int TopTabBar_Macd_Num -> d
+    int TopTabBar_Time_Num -> e
+    android.widget.TextView[] texts -> f
+    android.widget.TextView[] linears -> g
+    android.widget.TextView[] ma_stetting_tx -> h
+    android.widget.TextView[] macd_stetting_tx -> i
+    android.widget.TextView[] time_stetting_tx -> j
+    int[] linears_id -> k
+    int[] layouts_id -> l
+    int[] ma_setting_id -> m
+    int[] macd_setting_id -> n
+    int[] time_setting_id -> o
+    int[] ma_str_id -> p
+    int[] macd_str_id -> q
+    int[] time_str_id -> r
+    com.example.charttopsetting.TopTabBarSetting getInstance() -> a

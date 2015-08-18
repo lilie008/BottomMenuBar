@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="gray">#bcbcbc</color>
+    <color name="black">#000000</color>
+    <color name="bottom_text_selected">#ffffff</color>
+    <color name="bottom_text_unselected">#82858b</color>
+
+    <color name="navigation_bar_fg">#ffffffff</color>
+    <color name="navigation_bar_bg">#ff2f82c8</color>
+    <color name="futures_black">#ff24292d</color>
+    <color name="futures_line_light">#ffe6e6e6</color>
+    <color name="futures_grey">#ff666666</color>
+    <color name="nickname">#ff329ddc</color>
+    <color name="main_tab_item_selected_bg">#ff1e6cae</color>
+    <color name="main_tab_view_bg">#fff5f5f5</color>
+    
+    <color name="trading_blue">#ff2f82c8</color>
+    <color name="trading_gray">#ffbcbcbc</color>
+    <color name="trading_green">#ff00a646</color>
+    <color name="trading_red">#ffee4341</color>
+    
+    <color name="quotes_list_item_bg">#ffffffff</color>
+    <color name="quotes_list_item_fg">#ff666666</color>
+    <color name="quotes_list_item_fg_hi">#ff222222</color>
+    <color name="quotes_list_item_market">#ff2175be</color>
+</resources>
