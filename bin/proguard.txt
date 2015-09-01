@@ -4,17 +4,74 @@
 # view AndroidManifest.xml #generated:26
 -keep class com.example.activity.PriceActivity { <init>(...); }
 
+# view res/layout/activity_main.xml #generated:12
+-keep class widget.bottommenubar.ViewContainer { <init>(...); }
+
+# view res/layout/ready_stock_layout.xml #generated:162
+-keep class widget.charts.view.BOLLMASlipCandleStickChart { <init>(...); }
+
+# view res/layout/ready_stock_layout.xml #generated:122
+-keep class widget.charts.view.CandleStickChart { <init>(...); }
+
+# view res/layout/ready_stock_layout.xml #generated:72
+-keep class widget.charts.view.ColoredSlipStickChart { <init>(...); }
+
+# view res/layout/ready_stock_layout.xml #generated:23
+-keep class widget.charts.view.GridChart { <init>(...); }
+
+# view res/layout/ready_stock_layout.xml #generated:33
+-keep class widget.charts.view.LineChart { <init>(...); }
+
+# view res/layout/ready_stock_layout.xml #generated:172
+-keep class widget.charts.view.MACDChart { <init>(...); }
+
+# view res/layout/ready_stock_layout.xml #generated:142
+-keep class widget.charts.view.MACandleStickChart { <init>(...); }
+
+# view res/layout/ready_stock_layout.xml #generated:152
+-keep class widget.charts.view.MASlipCandleStickChart { <init>(...); }
+
+# view res/layout/ready_stock_layout.xml #generated:92
+-keep class widget.charts.view.MASlipStickChart { <init>(...); }
+
+# view res/layout/ready_stock_layout.xml #generated:82
+-keep class widget.charts.view.MAStickChart { <init>(...); }
+
+# view res/layout/ready_stock_layout.xml #generated:102
+-keep class widget.charts.view.MinusStickChart { <init>(...); }
+
+# view res/layout/ready_stock_layout.xml #generated:132
+-keep class widget.charts.view.SlipCandleStickChart { <init>(...); }
+
+# view res/layout/ready_stock_layout.xml #generated:43
+-keep class widget.charts.view.SlipLineChart { <init>(...); }
+
+# view res/layout/ready_stock_layout.xml #generated:112
+-keep class widget.charts.view.SlipMinusStickChart { <init>(...); }
+
+# view res/layout/ready_stock_layout.xml #generated:62
+-keep class widget.charts.view.SlipStickChart { <init>(...); }
+
+# view res/layout/ready_stock_layout.xml #generated:7
+-keep class widget.charts.view.SolveConflictScrollView { <init>(...); }
+
+# view res/layout/ready_stock_layout.xml #generated:52
+-keep class widget.charts.view.StickChart { <init>(...); }
+
+# view res/layout/ready_stock_layout.xml #generated:6
+-keep class widget.charttopsetting.TopTabBar { <init>(...); }
+
 # view res/layout/market_layout.xml #generated:11
 # view res/layout/market_layout.xml #generated:5
 # view res/layout/trading_layout.xml #generated:10
 # view res/layout/trading_layout.xml #generated:4
--keep class widget.TabContrlBase { <init>(...); }
+-keep class widget.tab.TabContrlBase { <init>(...); }
 
 # view res/layout/market_layout.xml #generated:6
 # view res/layout/market_layout.xml #generated:7
 # view res/layout/trading_layout.xml #generated:5
 # view res/layout/trading_layout.xml #generated:6
--keep class widget.TabItem { <init>(...); }
+-keep class widget.tab.TabItem { <init>(...); }
 
 # view res/layout/market_layout.xml #generated:12
 # view res/layout/market_layout.xml #generated:13
@@ -22,11 +79,5 @@
 # view res/layout/trading_layout.xml #generated:12
 # view res/layout/trading_layout.xml #generated:13
 # view res/layout/trading_layout.xml #generated:14
--keep class widget.TabLayoutItem { <init>(...); }
-
-# view res/layout/activity_main.xml #generated:12
--keep class widget.bottommenubar.ViewContainer { <init>(...); }
-
-# view res/layout/ready_stock_layout.xml #generated:6
--keep class widget.charttopsetting.TopTabBar { <init>(...); }
+-keep class widget.tab.TabLayoutItem { <init>(...); }
 

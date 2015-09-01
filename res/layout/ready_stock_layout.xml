@@ -4,5 +4,177 @@
     <TextView android:text="@string/chart_detail" style="@style/NavigationTitleBar" />
     <ImageView android:id="@id/back" style="@style/NavigationBackButton" />
 	<widget.charttopsetting.TopTabBar android:id="@id/TopTabBar" android:layout_below="@id/back" style="@style/ChartSettingsHead"/>
+	<widget.charts.view.SolveConflictScrollView 
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_below="@id/TopTabBar"
+	    android:scrollbars="none">
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
 	
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/gridchart" />
+	
+	        <widget.charts.view.GridChart
+	            android:id="@+id/gridchart"
+	            android:layout_width="fill_parent"
+	            android:layout_height="240dip" />
+	
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/linechart" />
+	
+	        <widget.charts.view.LineChart
+	            android:id="@+id/linechart"
+	            android:layout_width="fill_parent"
+	            android:layout_height="240dip" />
+	        
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/sliplinechart" />
+	
+	        <widget.charts.view.SlipLineChart
+	            android:id="@+id/sliplinechart"
+	            android:layout_width="fill_parent"
+	            android:layout_height="240dip" />
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/stickchart" />
+	
+	        <widget.charts.view.StickChart
+	            android:id="@+id/stickchart"
+	            android:layout_width="fill_parent"
+	            android:layout_height="240dip" />
+	        
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/slipstickchart" />
+	
+	        <widget.charts.view.SlipStickChart
+	            android:id="@+id/slipstickchart"
+	            android:layout_width="fill_parent"
+	            android:layout_height="240dip" />
+	        
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/coloredslipstickchart" />
+	
+	        <widget.charts.view.ColoredSlipStickChart
+	            android:id="@+id/coloredslipstickchart"
+	            android:layout_width="fill_parent"
+	            android:layout_height="240dip" />
+	
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/mastickchart" />
+	
+	        <widget.charts.view.MAStickChart
+	            android:id="@+id/mastickchart"
+	            android:layout_width="fill_parent"
+	            android:layout_height="240dip" />
+	        
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/maslipstickchart" />
+	
+	        <widget.charts.view.MASlipStickChart
+	            android:id="@+id/maslipstickchart"
+	            android:layout_width="fill_parent"
+	            android:layout_height="240dip" />
+	
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/minusstickchart" />
+	
+	        <widget.charts.view.MinusStickChart
+	            android:id="@+id/minusstickchart"
+	            android:layout_width="fill_parent"
+	            android:layout_height="240dip" />
+	        
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/slipminusstickchart" />
+	
+	        <widget.charts.view.SlipMinusStickChart
+	            android:id="@+id/slipminusstickchart"
+	            android:layout_width="fill_parent"
+	            android:layout_height="240dip" />
+	
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/candlestickchart" />
+	
+	        <widget.charts.view.CandleStickChart
+	            android:id="@+id/candlestickchart"
+	            android:layout_width="fill_parent"
+	            android:layout_height="240dip" />
+	        
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/slipcandlestickchart" />
+	
+	        <widget.charts.view.SlipCandleStickChart
+	            android:id="@+id/slipcandlestickchart"
+	            android:layout_width="fill_parent"
+	            android:layout_height="240dip" />
+	
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/macandlestickchart" />
+	
+	        <widget.charts.view.MACandleStickChart
+	            android:id="@+id/macandlestickchart"
+	            android:layout_width="fill_parent"
+	            android:layout_height="240dip" />
+	        
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/maslipcandlestickchart" />
+	
+	        <widget.charts.view.MASlipCandleStickChart
+	            android:id="@+id/maslipcandlestickchart"
+	            android:layout_width="fill_parent"
+	            android:layout_height="240dip" />
+	
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/bollmaslipcandlestickchart" />
+	        
+	        <widget.charts.view.BOLLMASlipCandleStickChart
+	            android:id="@+id/bollmaslipcandlestickchart"
+	            android:layout_width="fill_parent"
+	            android:layout_height="240dip" />
+	
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/macdchart" />
+	        
+	        <widget.charts.view.MACDChart
+	            android:id="@+id/macdchart"
+	            android:layout_width="fill_parent"
+	            android:layout_height="240dip"/>
+
+	    </LinearLayout>
+	
+	</widget.charts.view.SolveConflictScrollView >
 </RelativeLayout>

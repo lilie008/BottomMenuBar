@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout  style="@style/Fill" xmlns:android="http://schemas.android.com/apk/res/android">
 	<RelativeLayout android:id="@id/trading_tab_tool_layout" style="@style/NavigationBar" >
-	    <widget.TabContrlBase android:id="@id/trading_tab_tool" android:layout_centerInParent="true" style="@style/TradeInnerBar">
-	        <widget.TabItem android:text="@string/btc" style="@style/TradeInnerBarBtcButton" />
-	        <widget.TabItem android:text="@string/ltc" style="@style/TradeInnerBarLtcButton" />
-	    </widget.TabContrlBase>
+	    <widget.tab.TabContrlBase android:id="@id/trading_tab_tool" android:layout_centerInParent="true" style="@style/TradeInnerBar">
+	        <widget.tab.TabItem android:text="@string/btc" style="@style/TradeInnerBarBtcButton" />
+	        <widget.tab.TabItem android:text="@string/ltc" style="@style/TradeInnerBarLtcButton" />
+	    </widget.tab.TabContrlBase>
 	    <ImageButton android:layout_alignParentRight="true" style="@style/NavigationChartButton" />
 	</RelativeLayout>
-	<widget.TabContrlBase android:id="@id/trading_tab" style="@style/HFill" android:layout_below="@id/trading_tab_tool_layout">
-		<widget.TabLayoutItem android:id="@id/buy_in" android:layout_width="0dip" style="@style/Wrap" android:layout_weight="1" android:background="@drawable/tab_item_buy_in"/>
-		<widget.TabLayoutItem android:id="@id/sell_out" android:layout_width="0dip" style="@style/Wrap" android:layout_weight="1" android:background="@drawable/tab_item_sell_out"/>
-		<widget.TabLayoutItem android:id="@id/not_deal" android:layout_width="0dip" style="@style/Wrap" android:layout_weight="1" android:background="@drawable/tab_item_not_deal"/>
-		<widget.TabLayoutItem android:id="@id/proxy_histrory" android:layout_width="0dip" style="@style/Wrap" android:layout_weight="1" android:background="@drawable/tab_item_agreements"/>
-	</widget.TabContrlBase>
+	<widget.tab.TabContrlBase android:id="@id/trading_tab" style="@style/HFill" android:layout_below="@id/trading_tab_tool_layout">
+		<widget.tab.TabLayoutItem android:id="@id/buy_in" android:layout_width="0dip" style="@style/Wrap" android:layout_weight="1" android:background="@drawable/tab_item_buy_in"/>
+		<widget.tab.TabLayoutItem android:id="@id/sell_out" android:layout_width="0dip" style="@style/Wrap" android:layout_weight="1" android:background="@drawable/tab_item_sell_out"/>
+		<widget.tab.TabLayoutItem android:id="@id/not_deal" android:layout_width="0dip" style="@style/Wrap" android:layout_weight="1" android:background="@drawable/tab_item_not_deal"/>
+		<widget.tab.TabLayoutItem android:id="@id/proxy_histrory" android:layout_width="0dip" style="@style/Wrap" android:layout_weight="1" android:background="@drawable/tab_item_agreements"/>
+	</widget.tab.TabContrlBase>
 	<Button style="@style/Fill" android:id="@id/list" android:layout_below="@id/trading_tab"></Button>
 </RelativeLayout>
